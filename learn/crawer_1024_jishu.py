@@ -6,20 +6,22 @@ import time
 import parsel
 from bs4 import BeautifulSoup
 
+from learn.contants.Constant import CRAWER_1024_JISHU_FILE
 from learn.utils.IOUtil import writeContent
 from learn.utils.Response import getResponse, getSoup
 
 # content的前缀
 prefix_content = "https://cl.5837x.xyz/"
 
+MAX_REQUEST_NUM = 10
+
 
 # 爬取页面列表
 def crawer_List():
     pageName = "thread0806"
-    fileName = getFileName(pageName)
     url_admin = prefix_content + pageName + '.php?fid=7'
-    if (checkIsExistFile("file/" + getFileName(pageName))):
-        f = open("file/" + fileName, 'r', encoding='utf-8')
+    if (checkIsExistFile(getFileName(pageName))):
+        f = open(getFileName(pageName), 'r', encoding='utf-8')
         return ast.literal_eval(f.read())
     html = getResponse(url_admin)
     if (len(html) == 0):
@@ -41,7 +43,7 @@ def crawer_List():
         urlList[name] = url
         # print("url:" + url + "\n" + "name:" + name)
     print(urlList)
-    writeContent(str(urlList), fileName)
+    writeContent(str(urlList), getFileName(pageName))
     return urlList
 
 
@@ -68,7 +70,7 @@ def checkIsExistFile(name):
 
 
 def getFileName(name):
-    return name + ".txt"
+    return CRAWER_1024_JISHU_FILE + name + ".txt"
 
 
 def encodeName(name):
@@ -77,8 +79,8 @@ def encodeName(name):
 
 def getHtml(name, url):
     html = ''
-    if (checkIsExistFile("file/" + getFileName(name))):
-        file = open("file/" + getFileName(name), 'r', encoding='utf-8')
+    if (checkIsExistFile(getFileName(name))):
+        file = open(getFileName(name), 'r', encoding='utf-8')
         html = file.read()
     else:
         html = getResponse(url)
@@ -87,6 +89,7 @@ def getHtml(name, url):
 
 
 def download_page():
+    global MAX_REQUEST_NUM
     # 获取下载列表的url
     urlList = crawer_List()
     if (len(urlList) == 0):
@@ -96,16 +99,21 @@ def download_page():
     print("开始下载，下载数量为[" + str(len(urlList)) + "]")
     succNum = 0
     for (name, url) in urlList.items():
+        # 控制访问次数
+        if (succNum >= MAX_REQUEST_NUM):
+            return;
+
         if (url[-4:] == 'html'):
             content = crawer_content(name, url)
             if (len(content) == 0):
                 # 获取的字符串为空
                 continue
-            writeContent(getFileName(name), "")
-            writeContent(content, "")
+            writeContent(getFileName(name), CRAWER_1024_JISHU_FILE+"[合集].txt")
+            writeContent(content, CRAWER_1024_JISHU_FILE+"[合集].txt")
             succNum += 1
             print("下载成功【" + name + "】：" + url)
         else:
+            # TODO 后续增加识别
             print("下载失败：不识别该url：" + url)
     print(f"下载完成，成功数量：[{succNum}]，失败数量[{totalNum - succNum}]")
 
