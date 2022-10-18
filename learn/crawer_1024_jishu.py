@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 from learn.contants.Constant import CRAWER_1024_JISHU_FILE
 from learn.utils.IOUtil import writeContent
-from learn.utils.Response import getResponse, getSoup
+from learn.utils.Response import getResponse
 
 # content的前缀
 prefix_content = "https://cl.5837x.xyz/"

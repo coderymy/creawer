@@ -2,10 +2,10 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
-from requests import ReadTimeout
+from requests import ReadTimeout, ConnectTimeout
 from urllib3.exceptions import InsecureRequestWarning
 
-MAX_TIME = 5
+MAX_TIME = 3
 CURRENT_TIME = 1
 
 
@@ -21,17 +21,12 @@ def getResponse(baseurl):
         response.encoding = 'utf-8'
         html = response.text
         CURRENT_TIME = 0
-    except (ReadTimeout, InsecureRequestWarning):
+    except (ReadTimeout, InsecureRequestWarning, ConnectTimeout):
         # 判断超时，重复调用，最多五次
         print("下载失败：该链接超时" + baseurl + "当前第[" + str(CURRENT_TIME) + "]次")
         CURRENT_TIME += 1
         if (CURRENT_TIME <= MAX_TIME):
             getResponse(baseurl)
-
+    except(BaseException):
+        print("下载失败 未知异常")
     return html
-
-
-def getSoup(url):
-    html = getResponse(url)
-    soup = BeautifulSoup(html, "html.parser")  # BeautifulSoup解析html
-    return soup
