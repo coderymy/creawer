@@ -20,10 +20,10 @@ def getResponse(baseurl):
         response = requests.get(baseurl, headers=head, timeout=1, verify=False)  # 获取网页信息
         response.encoding = 'utf-8'
         html = response.text
-        CURRENT_TIME = 0
+        CURRENT_TIME = 1
     except (ReadTimeout, InsecureRequestWarning, ConnectTimeout):
         # 判断超时，重复调用，最多五次
-        print("下载失败：该链接超时" + baseurl + "当前第[" + str(CURRENT_TIME) + "]次")
+        print("下载失败：该链接超时 " + baseurl + " 当前第[" + str(CURRENT_TIME) + "]次")
         CURRENT_TIME += 1
         if (CURRENT_TIME <= MAX_TIME):
             getResponse(baseurl)

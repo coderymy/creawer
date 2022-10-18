@@ -1,9 +1,6 @@
 import ast
 import hashlib
 import os.path
-import time
-
-import parsel
 from bs4 import BeautifulSoup
 
 from learn.contants.Constant import CRAWER_1024_JISHU_FILE
@@ -73,10 +70,6 @@ def getFileName(name):
     return CRAWER_1024_JISHU_FILE + name + ".txt"
 
 
-def encodeName(name):
-    return hashlib.md5(name)
-
-
 def getHtml(name, url):
     html = ''
     if (checkIsExistFile(getFileName(name))):
@@ -97,19 +90,18 @@ def download_page():
         return
     totalNum = len(urlList)
     print("开始下载，下载数量为[" + str(len(urlList)) + "]")
-    succNum = 0
+    succNum = 1
     for (name, url) in urlList.items():
         # 控制访问次数
         if (succNum >= MAX_REQUEST_NUM):
             return;
-
         if (url[-4:] == 'html'):
             content = crawer_content(name, url)
             if (len(content) == 0):
                 # 获取的字符串为空
                 continue
-            writeContent(getFileName(name), CRAWER_1024_JISHU_FILE+"[合集].txt")
-            writeContent(content, CRAWER_1024_JISHU_FILE+"[合集].txt")
+            writeContent("【第" + str(succNum) + "章】" + name, CRAWER_1024_JISHU_FILE + "[合集].txt")
+            writeContent(content, CRAWER_1024_JISHU_FILE + "[合集].txt")
             succNum += 1
             print("下载成功【" + name + "】：" + url)
         else:

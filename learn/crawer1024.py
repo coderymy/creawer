@@ -1,8 +1,5 @@
 import urllib.request
-import os
 import re
-import time
-import socket
 from bs4 import BeautifulSoup
 
 
