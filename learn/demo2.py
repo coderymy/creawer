@@ -3,6 +3,8 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
+from learn.utils.IOUtil import writeContent
+
 
 def getResponse(baseurl):
     head = {
@@ -19,8 +21,8 @@ def crawer():
     soup = BeautifulSoup(html, "html.parser")  # BeautifulSoup解析html
     name_html=soup.select('#content >h1')[0].string
     content_html=soup.select('.content')[0].text
-    print(name_html)
-    print(content_html)
+    writeContent(content_html,name_html)
+
 
 
 if __name__ == "__main__":
