@@ -70,15 +70,7 @@ def getFileName(name):
     return CRAWER_1024_JISHU_FILE + name + ".txt"
 
 
-def getHtml(name, url):
-    html = ''
-    if (checkIsExistFile(getFileName(name))):
-        file = open(getFileName(name), 'r', encoding='utf-8')
-        html = file.read()
-    else:
-        html = getResponse(url)
-        writeContent(html, getFileName(name))
-    return html
+
 
 
 def download_page():

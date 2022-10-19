@@ -1,9 +1,12 @@
+import os.path
 import time
 
 import requests
 from bs4 import BeautifulSoup
 from requests import ReadTimeout, ConnectTimeout
 from urllib3.exceptions import InsecureRequestWarning
+
+from learn.utils.IOUtil import writeContent, wxWriteContent
 
 MAX_TIME = 3
 CURRENT_TIME = 1
@@ -30,3 +33,16 @@ def getResponse(baseurl):
     except(BaseException):
         print("下载失败 未知异常")
     return html
+
+
+# 查看本地是否有该文件，如果有就返回，没有就访问url并保存之后返回
+def getHtml(fileName, url):
+    if (os.path.exists(fileName)):
+        return open(fileName, 'r', encoding='utf-8')
+    else:
+        html = getResponse(url)
+        if (len(html) != 0):
+            wxWriteContent(fileName, html)
+            return html
+        else:
+            return ""
