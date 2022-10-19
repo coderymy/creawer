@@ -1,6 +1,8 @@
+import os.path
+
 from bs4 import BeautifulSoup
 from learn.contants.Constant import CARWER_1024_WENXUE_FILE
-from learn.utils.IOUtil import wxWriteTitle
+from learn.utils.IOUtil import wxWriteTitle, wxWriteContent
 from learn.utils.Response import getResponse, getHtml
 
 # 列表页：https://cl.5837x.xyz/thread0806.php?fid=20
@@ -15,13 +17,17 @@ prefix_content = "https://cl.5837x.xyz/"
 REQUEST_PAGE_NAME = "thread0806.php"
 LIST_URL = prefix_content + REQUEST_PAGE_NAME + "?fid=20"
 
-MAX_REQUEST_NUM = 1
+MAX_REQUEST_NUM = 100
 
 CONTENT_FILE_NAME = "[合集] " + REQUEST_PAGE_NAME
 
 
 def getFileName(name):
     return CARWER_1024_WENXUE_FILE + name + ".txt"
+
+
+def getCollectFileName(name):
+    return CARWER_1024_WENXUE_FILE + "【汇总】" + name + ".txt"
 
 
 # 爬取列表页所有的地址信息对应的name等
@@ -50,6 +56,22 @@ def crawer_list(name, url):
     return result_list
 
 
+def getCache(name):
+    fileName = getCollectFileName(name)
+    if (os.path.exists(fileName)):
+        return str(open(fileName, "r", encoding="utf-8"))
+    return ""
+
+
+def setCache(name, content):
+    fileName = getCollectFileName(name)
+    if (os.path.exists(fileName)):
+        return ""
+    else:
+        wxWriteContent(fileName, content)
+    return ""
+
+
 def getChapterAUrls(chapter_a_list):
     urls = []
     item1 = chapter_a_list[-1]
@@ -70,10 +92,22 @@ def getChapterAUrls(chapter_a_list):
 
 
 def crawer_content(item):
+    content = getCache(item.name)
+    if (len(content) != 0):
+        return content
     url = item.url
     name = item.name
     html = getHtml(getFileName(name), url)
+    if (len(str(html)) == 0):
+        return ""
     soup = BeautifulSoup(html, "html.parser")
+    title_text = soup.title.text
+    if (title_text == " 無法找到頁面 草榴社區 "):
+        print("下载失败：" + name + "：404")
+        return ""
+    if (title_text == "403 Forbidden"):
+        print("下载失败：" + name + "：403 Forbidden")
+        return ""
     content = soup.select(".tpc_content")[0].text
     if (len(item.chapter_urls) == 0):
         return content
@@ -92,6 +126,7 @@ def crawer_content(item):
         for chapter_div in chapter_divs:
             content = content + "\n" + "\n" + chapter_div.text
         chapter_num += 1
+    setCache(item.name, content)
     return content
 
 
