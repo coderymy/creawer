@@ -19,7 +19,7 @@ def getResponse(baseurl):
     }
     html = ''
     try:
-        time.sleep(3)
+        time.sleep(1)
         response = requests.get(baseurl, headers=head, timeout=1, verify=False)  # 获取网页信息
         response.encoding = 'utf-8'
         html = response.text

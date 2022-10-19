@@ -17,7 +17,7 @@ prefix_content = "https://cl.5837x.xyz/"
 REQUEST_PAGE_NAME = "thread0806.php"
 LIST_URL = prefix_content + REQUEST_PAGE_NAME + "?fid=20"
 
-MAX_REQUEST_NUM = 100
+MAX_REQUEST_NUM = 30
 
 CONTENT_FILE_NAME = "[合集] " + REQUEST_PAGE_NAME
 
@@ -59,7 +59,7 @@ def crawer_list(name, url):
 def getCache(name):
     fileName = getCollectFileName(name)
     if (os.path.exists(fileName)):
-        return str(open(fileName, "r", encoding="utf-8"))
+        return open(fileName, "r", encoding="utf-8").read()
     return ""
 
 
@@ -146,7 +146,7 @@ def download_wx():
         # print(f"记录名称:[{item.name}] url:[{item.url}] 章节为:[{item.chapter_urls}]")
         content = crawer_content(item)
         if (len(content) != 0):
-            print(f"下载成功 [{item.name}]")
+            print(f"下载成功，第[{succNum}]个， [{item.name}]")
             wxWriteTitle(getFileName(CONTENT_FILE_NAME), "[第" + str(succNum) + "章]" + item.name)
             wxWriteTitle(getFileName(CONTENT_FILE_NAME), content)
             succNum += 1
