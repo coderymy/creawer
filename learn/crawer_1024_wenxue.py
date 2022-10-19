@@ -124,7 +124,7 @@ def crawer_content(item):
         if (len(chapter_divs) == 0):
             continue
         for chapter_div in chapter_divs:
-            content = content + "\n" + "\n" + "[第" + str(chapter_num) + "节]" + chapter_div.text
+            content = content + "\n" + "\n" + chapter_div.text
         chapter_num += 1
     setCache(item.name, content)
     return content
@@ -143,8 +143,8 @@ def download_wx():
     download_num = 1
     succNum = 1
     rangeSplit = REQUEST_RANGE.split("-")
-    min = rangeSplit[0]
-    max = rangeSplit[1]
+    min = int(rangeSplit[0])
+    max = int(rangeSplit[1])
     for item in result_list:
         if (download_num > max or download_num < min):
             return;
