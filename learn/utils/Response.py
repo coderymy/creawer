@@ -27,12 +27,12 @@ def getResponse(baseurl):
         html = response.text
     except (ReadTimeout, InsecureRequestWarning, ConnectTimeout):
         # 判断超时，重复调用，最多五次
-        print("下载失败：该链接超时 " + baseurl + " 当前第[" + str(CURRENT_TIME) + "]次")
+        print("链接访问失败：该链接超时 " + baseurl + " 当前第[" + str(CURRENT_TIME) + "]次")
         CURRENT_TIME += 1
         if (CURRENT_TIME <= MAX_TIME):
             getResponse(baseurl)
     except(BaseException):
-        print("下载失败 未知异常")
+        print("链接访问失败 未知异常")
 
     CURRENT_TIME = 1
     return html

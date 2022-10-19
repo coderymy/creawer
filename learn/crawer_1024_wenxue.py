@@ -10,6 +10,7 @@ prefix_content = "https://cl.5837x.xyz/"
 REQUEST_PAGE_NAME = "thread0806.php"
 LIST_URL = prefix_content + REQUEST_PAGE_NAME + "?fid=20"
 MAX_REQUEST_NUM = 100
+REQUEST_RANGE = "0-100"
 CONTENT_FILE_NAME = "[合集] " + REQUEST_PAGE_NAME
 
 
@@ -134,21 +135,24 @@ def getChapterName(name, chapter_num):
 
 
 def download_wx():
-    global LIST_URL, LIST_NAME, MAX_REQUEST_NUM
+    global LIST_URL, LIST_NAME, MAX_REQUEST_NUM, REQUEST_RANGE
     # 获取当前要访问的页面的所有节点记录
     result_list = crawer_list(LIST_NAME, LIST_URL)
     totalNum = len(result_list)
     # print(f"下载开始 列表页共[{str(len(result_list))}]个节点")
     download_num = 1
     succNum = 1
+    rangeSplit = REQUEST_RANGE.split("-")
+    min = rangeSplit[0]
+    max = rangeSplit[1]
     for item in result_list:
-        if (succNum > MAX_REQUEST_NUM):
+        if (download_num > max or download_num < min):
             return;
         # print(f"记录名称:[{item.name}] url:[{item.url}] 章节为:[{item.chapter_urls}]")
         content = crawer_content(item)
         if (len(content) != 0):
             print(f"下载成功，第[{str(download_num)}]个，共[{str(totalNum)}]个 ： [{item.name}]")
-            wxWriteTitle(getFileName(CONTENT_FILE_NAME), "[第" + str(succNum) + "章]" + item.name)
+            wxWriteTitle(getFileName(CONTENT_FILE_NAME), "[第" + str(succNum) + "章]" + item.name + "：" + str(item.url))
             wxWriteTitle(getFileName(CONTENT_FILE_NAME), content)
             succNum += 1
         else:
