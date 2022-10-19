@@ -20,7 +20,7 @@ def writeContent(content, fileName):
 
 
 # 文学写入title
-def wxWriteTitle(title, fileName):
+def wxWriteTitle(fileName,title ):
     fileName = "未分类.txt" if fileName == "" else fileName
     if (1 - os.path.exists(CARWER_1024_WENXUE_FILE)):
         os.mkdir(CARWER_1024_WENXUE_FILE)

@@ -23,7 +23,6 @@ def getResponse(baseurl):
         response = requests.get(baseurl, headers=head, timeout=1, verify=False)  # 获取网页信息
         response.encoding = 'utf-8'
         html = response.text
-        CURRENT_TIME = 1
     except (ReadTimeout, InsecureRequestWarning, ConnectTimeout):
         # 判断超时，重复调用，最多五次
         print("下载失败：该链接超时 " + baseurl + " 当前第[" + str(CURRENT_TIME) + "]次")
@@ -32,6 +31,8 @@ def getResponse(baseurl):
             getResponse(baseurl)
     except(BaseException):
         print("下载失败 未知异常")
+
+    CURRENT_TIME = 1
     return html
 
 
