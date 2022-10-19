@@ -1,14 +1,16 @@
 import os.path
 import time
-
 import requests
 from bs4 import BeautifulSoup
 from requests import ReadTimeout, ConnectTimeout
 from urllib3.exceptions import InsecureRequestWarning
-
 from learn.utils.IOUtil import writeContent, wxWriteContent
+import urllib3
 
-MAX_TIME = 3
+
+urllib3.disable_warnings()
+
+MAX_TIME = 5
 CURRENT_TIME = 1
 
 
