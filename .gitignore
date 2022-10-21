@@ -38,3 +38,11 @@ build/
 
 
 *_file
+cache/
+文学/
+图文*/
+
+*.jpg
+*.png
+*.gif
+*.txt

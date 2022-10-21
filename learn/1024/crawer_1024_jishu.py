@@ -1,10 +1,11 @@
 import os.path
 from bs4 import BeautifulSoup
-from learn.contants.Constant import CRAWER_1024_JISHU_FILE
+from learn.contants.Constant import CRAWER_1024_JISHU_FILE, CRAWER_1024_DGE_FILE, CRAWER_1024_FILE, \
+    CRAWER_1024_TW_FILE
 from learn.markdown.htmlToMd import htmlToMarkdown
 from learn.sql.MySqlUtils import insertContent, insertContentPic
 from learn.sql.Tables import Content, Content_pic
-from learn.utils.IOUtil import writeContent
+from learn.utils.IOUtil import writeContent, writeContentNotRept
 from learn.utils.Md5 import MD5
 from learn.utils.Response import getResponse, getHtml, getSoupAndSaveCache
 from crawer_1024_pic import crawer_picture, getSuffixName, getResouceAndDownloadPic
@@ -45,7 +46,7 @@ def crawer_content(name, url, currentNum, succNum, totalNum):
     return content
 
 
-def crawer_content_md(name, url):
+def crawer_content_md(name, url, path):
     # 从缓存及网络上下载整个页面的html文件
     soup = getSoupAndSaveCache(name, url)
     # 解析出来整体需要的content部分html信息
@@ -81,11 +82,11 @@ def crawer_content_md(name, url):
     # 将html转换成md文件
     item_markdown = htmlToMarkdown(html_content)
     # 保存md文件
-    writeContent(item_markdown, CRAWER_1024_JISHU_FILE + name + ".md")
+    name = name.replace(" ", "")
+    writeContentNotRept(item_markdown, path + name + ".md")
 
 
-
-def download_page(url_admin):
+def download_page(url_admin, save_path):
     global REQUEST_RANGE
     # 获取下载列表的url
     urlList = crawer_List(url_admin)
@@ -107,13 +108,21 @@ def download_page(url_admin):
             continue
         # crawer_content(name, url, currentNum, succNum, str(len(urlList)))
         try:
-            crawer_content_md(name, url)
+            crawer_content_md(name, url, save_path)
         except BaseException as err:
             print(f"{name}下载异常")
         succNum += 1
     print(f"下载完成...共[{str(len(urlList))}]，下载成功[{str(succNum)}]")
 
 
+def deleteListCache():
+    os.remove("cache/" + MD5("技术列表页") + ".txt")
+
+
 if __name__ == '__main__':
-    url = "https://cl.5837x.xyz/thread0806.php?fid=7"
-    download_page(url)
+    dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest"
+    # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
+    save_path = CRAWER_1024_TW_FILE
+    # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
+    download_page(dge_url, "图文精华/")
+    # deleteListCache()

@@ -20,11 +20,30 @@ def writeContent(content, fileName):
     f.close()
 
 
+def writeContentNotRept(content, fileName):
+    fileName = "未分类.txt" if fileName == "" else fileName
+    # 判断是否有这个文件，如果没有就创建一个
+    # os.mkdir("file/") if (1-os.path.exists("file/")) else 1+1
+    if (1 - os.path.exists(CRAWER_1024_JISHU_FILE)):
+        os.mkdir(CRAWER_1024_JISHU_FILE)
+    if (os.path.exists(fileName)):
+        # 如果有这个文件，就删除重新写
+        os.remove(fileName)
+    f = open(fileName, 'a', encoding='utf-8')
+    f.write(content)
+    f.write('\n')
+    f.write('\n')
+    f.write('\n')
+    f.write('\n')
+    f.close()
+
+
 # 文学写入title
 def wxWriteTitle(fileName, title):
     fileName = "未分类.txt" if fileName == "" else fileName
-    if (1 - os.path.exists(CARWER_1024_WENXUE_FILE)):
-        os.mkdir(CARWER_1024_WENXUE_FILE)
+    if (len(fileName.split("/")[0]) != 0):
+        if (1 - os.path.exists(fileName.split("/")[0])):
+            os.mkdir(fileName.split("/")[0])
     file = open(fileName, 'a', encoding='utf-8')
     file.write(title)
     file.write('\n')
@@ -34,8 +53,9 @@ def wxWriteTitle(fileName, title):
 # 文学写入内容
 def wxWriteContent(fileName, content):
     fileName = "未分类.txt" if fileName == "" else fileName
-    if (1 - os.path.exists(CARWER_1024_WENXUE_FILE)):
-        os.mkdir(CARWER_1024_WENXUE_FILE)
+    if (len(fileName.split("/")[0]) != 0):
+        if (1 - os.path.exists(fileName.split("/")[0])):
+            os.mkdir(fileName.split("/")[0])
     file = open(fileName, 'a', encoding='utf-8')
     file.write(content)
     i = 1
@@ -56,8 +76,9 @@ def writeCache(directory, name, content):
 
 def writePicture(fileName, content, suffix_name):
     fileName = str(uuid.uuid1()) + suffix_name if fileName == "" else fileName
-    if (1 - os.path.exists(CARWER_1024_PICTURE_FILE)):
-        os.mkdir(CARWER_1024_PICTURE_FILE)
+    if (len(fileName.split("/")[0]) != 0):
+        if (1 - os.path.exists(fileName.split("/")[0])):
+            os.mkdir(fileName.split("/")[0])
     try:
         file = open(fileName, mode='wb')
         file.write(content)
@@ -66,4 +87,3 @@ def writePicture(fileName, content, suffix_name):
         print("出现异常" + str(err))
         return False
     return True
-
