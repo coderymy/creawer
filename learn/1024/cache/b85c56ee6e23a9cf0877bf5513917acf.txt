@@ -1,0 +1,1679 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>青春逼人 - 技術討論區 | 草榴社區 - t66y.com</title>
+<meta name="keywords" content="草榴,1024,草榴社區,1024app,草榴app,小草app,亞洲無碼,亞洲有碼,歐美無碼,動漫無碼,轉貼交流,技術討論區,達蓋爾的旗幟,新時代的我們,成人文學,在線成人影院,http下載,草榴貼圖,草榴資訊,t66y.com" />
+<meta name="description" content="青春逼人 草榴社區 t66y.com" />
+<meta name="referrer" content="no-referrer" />
+<link rel="stylesheet" href="//2023.redircdn.com/web/style.css?v=2.050612" type="text/css" charset="UTF-8"/>
+</head><body>
+<div id="header">
+<div class="banner" style="padding-left:5px;"><a href="../../../"><FONT SIZE="7" COLOR="white"><B>草榴社區</B></FONT></a></div>
+<div class="h guide" colspan="2">
+	<a href="../../../profile.php">資料</a>
+	| <a href="../../../message.php">短信</a>
+	| <a href="../../../search.php">搜索</a>
+</div>
+<div id="showmenu" style="z-index:100;display:none;"></div>
+</div>
+
+<script src="//2023.redircdn.com/web/post.js?v=2.050612" charset="UTF-8"></script>
+<script src="//2023.redircdn.com/web/cdn/jquery.3.2.1.min.js"></script>
+<script>
+var isAdmin = 0;
+var fid = 7;
+var page = 'h';
+var authorid = 589698;
+</script>
+
+<div id="main" style="margin-top:20px">
+
+<div class="t3" style="margin:8px 0px;">
+<table width="100%" cellspacing="0" cellpadding="0" align="center">
+<tr><td colspan="2" style="padding-bottom:8px;">
+.:. <b><a href="../../../index.php">草榴社區</a> &raquo; <a href="../../../thread0806.php?fid=7">技術討論區</a> &raquo; 青春逼人</b></td></tr>
+<tr><td align="left"><div class="pages"><a href="javascript:#" class="gray">＜</a><a href="javascript:#" class="gray">上一頁</a><a><U>1</U></a><a href="../../../read.php?tid=5270504&amp;page=2">2</a><a href="../../../read.php?tid=5270504&amp;page=3">3</a><a href="../../../read.php?tid=5270504&amp;page=4">4</a><a class='w70'><input type="text" style="width:50px;" value="1/20" onfocus="this.value='';" onblur="this.value='1/20'" onkeydown="javascript: if(event.keyCode==13){ location='../../../read.php?tid=5270504&amp;page='+this.value;return false;}"></a><a href="../../../read.php?tid=5270504&amp;page=2">下一頁</a><a href="../../../read.php?tid=5270504&amp;page=20" id="last">＞</a></div></td>
+<td align="right"><div class="pages"><a href="#" onclick="window.open('https://2023.redircdn.com/web/hrcode.php?url='+location.href,'','height=300,width=300')">手機版</a><a href="../../../post.php?action=reply&fid=7&tid=5270504">回帖</a><a href="../../../post.php?fid=7" id="last">發布主題</a></div>
+
+</td></tr>
+</table></div>
+
+<div class="t" style="margin-bottom:0; border-bottom:0">
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr><td class="h"> --> <b>本頁主題:</b> 青春逼人</td>
+<td class="h" style="text-align:right;"><span><a href="javascript:fontsizeToggle()">字體大小</a> <span><a href="javascript:widthToggle()">寬屏顯示</a> <a href="../../../read.php?tid=5270504&toread=2">只看樓主</a> <a href="../../../read.php?tid=5270504&toread=5">最新點評</a> <a href="../../../read.php?tid=5270504&toread=3">熱門評論</a> <a href="../../../read.php?tid=5270504&toread=1">時間順序</a></span></td></tr>
+</table></div>
+
+<a name=#tpc></a>
+<div class="t t2" style="border-top:0">
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2" style="min-width:100px;"><b>西门出鬼</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://2048.aaaimgs.com/images/2022/02/12/439838dfc84a906b.gif' border='0' style='max-width:185px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">精靈王 ( 12 )</font><br />
+
+發帖：<span class="s1">14562</span><br />
+威望：<span class="s2">1429 點</span><br />
+金錢：<span class="s3">4815 USD</span><br />
+
+貢獻：<span class="s1">26241 點</span><br />
+
+
+註冊：2021-10-24
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+
+<a href="../../../@西门出鬼" target="_blank">主題</a>
+
+<a href="../../../show.php?uid=589698">資料</a>
+<a href="../../../message.php?action=write&touid=589698">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=tpc&article=0">編輯</a>
+</div>
+
+<br /><br />
+
+<h4 class="f16">青春逼人</h4>
+
+<br><div class="tips" style="width:auto"><SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT></div><div class="c"></div>
+
+<br /><div class="tpc_content do_not_catch" id="conttpc"><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1sd5g5.gif'>&nbsp;<br>睡在我上铺的兄弟<br>你还记得她吗？<br>那时的她<br>总是有一点点恐高<br>每次都睡在我床上<br>你总是摇晃几下<br>再就没有动静了<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1tqq5f.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1tr8x7.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1trpkx.jpg'>&nbsp;<br>青春的回忆就象在昨天<br>湿热粘滑<br>还带着稍稍的温度<br>再也回不去<br>再也摸不着<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1ucy3s.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1udi1w.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1udxy4.jpg'>&nbsp;<br>她们还是他们的<br>我们还是我们的<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1utk51.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1uu2vy.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1uuf2a.jpg'>&nbsp;<br>青春咄咄逼人<br>毕业以后阅人无数<br>才显成熟意味之美<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vday4.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vdsyz.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vef7v.jpg'>&nbsp;<br>青春到处都是坑<br>一泡尿都能冲出浅浅的坑<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vmswh.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vvrgr.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vwb2t.jpg'>&nbsp;<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1vx19x.jpg'>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; 浅浅的一个坑，让我思念到如今！<br><img iyl-data='http://a.d/adblo_ck.jpg' ess-data='https://23img.com/i/2022/09/09/1rqyb6.gif'>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; 期待下一次同学会，拆散一对算一对！<br><br>
+
+			<br><br><div onclick="clickLike(5270504, 'h', 't')" class="t_like" id="like5270504">赞(788)</div>
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tips tal" style="word-break: keep-all;word-wrap:no-wrap"><div class="tal s3">本帖最近評分記錄：</div><div class="tal">威望:+5(Diss) </div></div><div class="c"></div>
+
+<div class="tipad">
+<span style="float:right">
+
+			<a href="/notice.php?fid=-1#1">DMCA / ABUSE REPORT</a> | 
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:22 
+
+<span class="s3">樓主</span> <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=tpc&article=0">引用</a> |
+<a title="發表評論" style="cursor:pointer;" onclick="var c=$('[name=atc_content]');var s=c.val();$('input[value=\'重置\']').click();c.val(s);c.focus()">發表評論</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789486></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>chch2350</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='http://www.1024image.com/images/2021/04/06/1nwqS.gif' border='0' style='max-width:185px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">光明使者 ( 14 )</font><br />
+
+發帖：<span class="s1">10558</span><br />
+威望：<span class="s2">929 點</span><br />
+金錢：<span class="s3">11219305 USD</span><br />
+
+貢獻：<span class="s1">521824 點</span><br />
+
+
+註冊：2013-03-04
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="1" authorid="272420" onclick="clickLike(94789486, 'h')" href="javascript:" class="s3" id="like94789486">赞(12)</a> |  
+
+
+<a href="../../../show.php?uid=272420">資料</a>
+<a href="../../../message.php?action=write&touid=272420">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789486&article=1">編輯</a>
+</div>
+
+<br><div class="tips" style="width:auto"><SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT></div><div class="c"></div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789486">感谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div>------------------------</div>
+<div class="signature" style="max-height:px;maxHeight:px; overflow:hidden;"><table width="100%"><tr><td>3</td></tr></table></div>
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789486"></ul><script>var comm94789486 = {"c2724031":{"i":607792,"u":"国境东南东","c":"借樓請問後面那個是阿朱嗎？","t":"09-09 08:22","l":6},"c2724229":{"i":144602,"u":"xiefujie2011","c":"啊紫，星宿派那个","t":"09-09 09:33","l":5,"p":"https:\/\/sxeimg.com\/i\/2022\/02\/27\/12u9ott.gif","ti":607792,"tu":"国境东南东"},"c2724565":{"i":598856,"u":"一个坏男孩","c":"是的，她睡在我上铺。","t":"09-09 11:52","l":6,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":607792,"tu":"国境东南东"},"c2724567":{"i":598856,"u":"一个坏男孩","c":"混这样了？不知什么价位","t":"09-09 11:53","l":2,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":144602,"tu":"xiefujie2011"},"c2724600":{"i":607792,"u":"国境东南东","c":"我信你了！話説當兵時候一個小兵是電影公司攝影，据他說，台灣有名的艷星田麗，未成名時上過他的床。哈，這事姑且聽聽就好！","t":"09-09 12:04","l":3,"ti":598856,"tu":"一个坏男孩"}};loadComment(94789486, 17);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:27 
+
+<span class="s3">熱門評論</span> <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789486&article=1">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789486" onclick="postreply('點評 (chch2350) 的帖子', '94789486', 0, 'cont94789486');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789538></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>拥你入梦</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://fappenpics.com/images/2022/10/11/photo_2022-10-10_21-36-016dab6a7ea2bf6ac1.jpg' border='0' style='max-width:160px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">聖騎士 ( 11 )</font><br />
+
+發帖：<span class="s1">1705</span><br />
+威望：<span class="s2">171 點</span><br />
+金錢：<span class="s3">21074 USD</span><br />
+
+貢獻：<span class="s1">26000 點</span><br />
+
+
+註冊：2015-12-11
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="2" authorid="392122" onclick="clickLike(94789538, 'h')" href="javascript:" class="s3" id="like94789538">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=392122">資料</a>
+<a href="../../../message.php?action=write&touid=392122">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789538&article=2">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789538">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789538"></ul><script>var comm94789538 = {"c2726264":{"i":616447,"u":"rickfish","c":"好B，该狠狠操","t":"09-10 00:21","l":4},"c2729836":{"i":500886,"u":"医者淫心","c":"可惜都不知道享受，都保护的太好，放老了","t":"09-11 12:24","l":0,"ti":616447,"tu":"rickfish"},"c2730379":{"i":598856,"u":"一个坏男孩","c":"医生没有进行科普呀","t":"09-11 17:03","l":2,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":500886,"tu":"医者淫心"},"c2730823":{"i":500886,"u":"医者淫心","c":"学校没有教","t":"09-11 20:19","l":0,"ti":598856,"tu":"一个坏男孩"},"c2731287":{"i":598856,"u":"一个坏男孩","c":"嫩滑爽口的季节过来","t":"09-11 23:07","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":500886,"tu":"医者淫心"}};loadComment(94789538, 7);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:40 
+
+<span class="s3">#2樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789538&article=2">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789538" onclick="postreply('點評 2樓(拥你入梦) 的帖子', '94789538', 0, 'cont94789538');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789552></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>身外客</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">602</span><br />
+威望：<span class="s2">61 點</span><br />
+金錢：<span class="s3">2967 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2021-11-16
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="3" authorid="592561" onclick="clickLike(94789552, 'h')" href="javascript:" class="s3" id="like94789552">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=592561">資料</a>
+<a href="../../../message.php?action=write&touid=592561">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789552&article=3">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789552">青春逼人 感谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789552"></ul><script>var comm94789552 = {"c2737248":{"i":356293,"u":"乐乐娃","c":"插嘴求最后一张视频.....多谢","t":"09-13 23:59","l":4},"c2767005":{"i":598856,"u":"一个坏男孩","c":"我朋友也想看看","t":"09-23 15:23","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":356293,"tu":"乐乐娃"},"c2785471":{"i":572855,"u":"PAFF","c":"我有个朋友也想看","t":"09-29 08:49","l":0,"ti":356293,"tu":"乐乐娃"},"c2848200":{"i":608169,"u":"鬼才萌新","c":"我也想看","t":"10-16 03:00","l":0},"c2850707":{"i":621012,"u":"腾飞之州","c":"我也想要","t":"10-16 21:13","l":0}};loadComment(94789552, 5);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:42 
+
+<span class="s3">#3樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789552&article=3">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789552" onclick="postreply('點評 3樓(身外客) 的帖子', '94789552', 0, 'cont94789552');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789555></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>联盟少侠</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">俠客 ( 9 )</font><br />
+
+發帖：<span class="s1">1094</span><br />
+威望：<span class="s2">100 點</span><br />
+金錢：<span class="s3">2412 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2018-03-28
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="4" authorid="496356" onclick="clickLike(94789555, 'h')" href="javascript:" class="s3" id="like94789555">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=496356">資料</a>
+<a href="../../../message.php?action=write&touid=496356">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789555&article=4">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789555">1024 感谢
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:44 
+
+<span class="s3">#4樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789555&article=4">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789555" onclick="postreply('點評 4樓(联盟少侠) 的帖子', '94789555', 0, 'cont94789555');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789577></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>惜缘程李</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">833</span><br />
+威望：<span class="s2">84 點</span><br />
+金錢：<span class="s3">2333 USD</span><br />
+
+貢獻：<span class="s1">1 點</span><br />
+
+
+註冊：2022-04-28
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="5" authorid="609435" onclick="clickLike(94789577, 'h')" href="javascript:" class="s3" id="like94789577">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=609435">資料</a>
+<a href="../../../message.php?action=write&touid=609435">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789577&article=5">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789577">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:49 
+
+<span class="s3">#5樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789577&article=5">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789577" onclick="postreply('點評 5樓(惜缘程李) 的帖子', '94789577', 0, 'cont94789577');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789584></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>何家坡养猪的</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">79</span><br />
+威望：<span class="s2">8 點</span><br />
+金錢：<span class="s3">335 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2022-04-19
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="6" authorid="608294" onclick="clickLike(94789584, 'h')" href="javascript:" class="s3" id="like94789584">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=608294">資料</a>
+<a href="../../../message.php?action=write&touid=608294">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789584&article=6">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789584">虽然没看见图，但是我都撸了2.99秒
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789584"></ul><script>var comm94789584 = {"c2724108":{"i":586781,"u":"说谎的嘉宾","c":"差一点就病了","t":"09-09 08:49","l":3},"c2724128":{"i":549285,"u":"壬皇","c":"“你总是摇晃几下，再就没有动静了”，莫非你就是楼主上铺的兄弟？！","t":"09-09 08:56","l":5},"c2724167":{"i":622228,"u":"凭栏须断肠","c":"打铁还需自身硬，三秒之下我无敌，七米之外尼牛逼。","t":"09-09 09:14","l":1,"ti":549285,"tu":"壬皇"},"c2724225":{"i":549285,"u":"壬皇","c":"你才是尼，我除了巨根有点尼，其他白的很","t":"09-09 09:32","l":0,"ti":622228,"tu":"凭栏须断肠"},"c2724328":{"i":622228,"u":"凭栏须断肠","c":"咬部三代目需要尼","t":"09-09 10:06","l":0,"ti":549285,"tu":"壬皇"}};loadComment(94789584, 13);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:52 
+
+<span class="s3">#6樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789584&article=6">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789584" onclick="postreply('點評 6樓(何家坡养猪的) 的帖子', '94789584', 0, 'cont94789584');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789586></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>晚风诵</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">446</span><br />
+威望：<span class="s2">46 點</span><br />
+金錢：<span class="s3">1620 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2022-06-22
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="7" authorid="615703" onclick="clickLike(94789586, 'h')" href="javascript:"  id="like94789586">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=615703">資料</a>
+<a href="../../../message.php?action=write&touid=615703">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789586&article=7">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789586">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 01:52 
+
+<span class="s3">#7樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789586&article=7">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789586" onclick="postreply('點評 7樓(晚风诵) 的帖子', '94789586', 0, 'cont94789586');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789707></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>黑船</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">843</span><br />
+威望：<span class="s2">87 點</span><br />
+金錢：<span class="s3">1779 USD</span><br />
+
+貢獻：<span class="s1">91 點</span><br />
+
+
+註冊：2022-05-21
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="8" authorid="612774" onclick="clickLike(94789707, 'h')" href="javascript:"  id="like94789707">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=612774">資料</a>
+<a href="../../../message.php?action=write&touid=612774">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789707&article=8">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789707">真嫩啊
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789707"></ul><script>var comm94789707 = {"c2750507":{"i":611506,"u":"最后一代","c":"都是年轻的身体，好喜欢","t":"09-18 10:37","l":1},"c2782523":{"i":598856,"u":"一个坏男孩","c":"会不会太紧了？😳","t":"09-28 11:57","l":0,"p":"https:\/\/images2.imgbox.com\/72\/95\/cSAm8LY4_o.gif","ti":611506,"tu":"最后一代"}};loadComment(94789707, 2);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:34 
+
+<span class="s3">#8樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789707&article=8">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789707" onclick="postreply('點評 8樓(黑船) 的帖子', '94789707', 0, 'cont94789707');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789743></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>炮神</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">精靈王 ( 12 )</font><br />
+
+發帖：<span class="s1">14955</span><br />
+威望：<span class="s2">1520 點</span><br />
+金錢：<span class="s3">24138 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2011-09-11
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="9" authorid="226778" onclick="clickLike(94789743, 'h')" href="javascript:" class="s3" id="like94789743">赞(2)</a> |  
+
+
+<a href="../../../show.php?uid=226778">資料</a>
+<a href="../../../message.php?action=write&touid=226778">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789743&article=9">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789743">我全要了，哇哈哈哈
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789743"></ul><script>var comm94789743 = {"c2724576":{"i":598856,"u":"一个坏男孩","c":"低调低调！大佬吃不消的","t":"09-09 11:55","l":1,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg"}};loadComment(94789743, 1);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:50 
+
+<span class="s3">#9樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789743&article=9">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789743" onclick="postreply('點評 9樓(炮神) 的帖子', '94789743', 0, 'cont94789743');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789744></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>懿鉴一致</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">俠客 ( 9 )</font><br />
+
+發帖：<span class="s1">1186</span><br />
+威望：<span class="s2">119 點</span><br />
+金錢：<span class="s3">2728 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2021-09-11
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="10" authorid="586356" onclick="clickLike(94789744, 'h')" href="javascript:"  id="like94789744">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=586356">資料</a>
+<a href="../../../message.php?action=write&touid=586356">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789744&article=10">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789744">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:52 
+
+<span class="s3">#10樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789744&article=10">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789744" onclick="postreply('點評 10樓(懿鉴一致) 的帖子', '94789744', 0, 'cont94789744');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789747></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>初吻给了阴唇</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://23img.com/i/2022/09/04/ipeeu5.png' border='0' style='max-width:185px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">風雲使者 ( 13 )</font><br />
+
+發帖：<span class="s1">10172</span><br />
+威望：<span class="s2">1482 點</span><br />
+金錢：<span class="s3">1917237 USD</span><br />
+
+貢獻：<span class="s1">188888 點</span><br />
+
+
+註冊：2011-09-21
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="11" authorid="227925" onclick="clickLike(94789747, 'h')" href="javascript:" class="s3" id="like94789747">赞(3)</a> |  
+
+
+<a href="../../../show.php?uid=227925">資料</a>
+<a href="../../../message.php?action=write&touid=227925">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789747&article=11">編輯</a>
+</div>
+
+<br><div class="tips" style="width:auto"><SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT></div><div class="c"></div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789747">柔嫩的妹子，真不错。
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div>------------------------</div>
+<div class="signature" style="max-height:px;maxHeight:px; overflow:hidden;"><table width="100%"><tr><td>H</td></tr></table></div>
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789747"></ul><script>var comm94789747 = {"c2740709":{"i":606538,"u":"桃之妖夭","c":"整得私情滑意的","t":"09-15 01:12","l":2},"c2767009":{"i":598856,"u":"一个坏男孩","c":"文人骚客","t":"09-23 15:24","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":606538,"tu":"桃之妖夭"}};loadComment(94789747, 2);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:53 
+
+<span class="s3">#11樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789747&article=11">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789747" onclick="postreply('點評 11樓(初吻给了阴唇) 的帖子', '94789747', 0, 'cont94789747');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789748></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>拉斯伊茎</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">801</span><br />
+威望：<span class="s2">81 點</span><br />
+金錢：<span class="s3">1499 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2022-07-05
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="12" authorid="616924" onclick="clickLike(94789748, 'h')" href="javascript:"  id="like94789748">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=616924">資料</a>
+<a href="../../../message.php?action=write&touid=616924">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789748&article=12">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789748">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:54 
+
+<span class="s3">#12樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789748&article=12">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789748" onclick="postreply('點評 12樓(拉斯伊茎) 的帖子', '94789748', 0, 'cont94789748');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789749></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>东莞浮CC</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://23img.com/i/2022/10/08/10vxlsa.jpg' border='0' style='max-width:185px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">精靈王 ( 12 )</font><br />
+
+發帖：<span class="s1">1134</span><br />
+威望：<span class="s2">114 點</span><br />
+金錢：<span class="s3">272323 USD</span><br />
+
+貢獻：<span class="s1">80001 點</span><br />
+
+
+註冊：2021-11-22
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="13" authorid="592909" onclick="clickLike(94789749, 'h')" href="javascript:"  id="like94789749">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=592909">資料</a>
+<a href="../../../message.php?action=write&touid=592909">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789749&article=13">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789749">感谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 02:54 
+
+<span class="s3">#13樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789749&article=13">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789749" onclick="postreply('點評 13樓(东莞浮CC) 的帖子', '94789749', 0, 'cont94789749');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789951></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>爱曰睡美人</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://s1.xoimg.com/i/2022/04/29/126dyyr.gif' border='0' style='max-width:185px;max-height:200px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">風雲使者 ( 13 )</font><br />
+
+發帖：<span class="s1">9406</span><br />
+威望：<span class="s2">943 點</span><br />
+金錢：<span class="s3">6228 USD</span><br />
+
+貢獻：<span class="s1">221515 點</span><br />
+
+
+註冊：2010-01-30
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="14" authorid="77971" onclick="clickLike(94789951, 'h')" href="javascript:" class="s3" id="like94789951">赞(3)</a> |  
+
+
+<a href="../../../show.php?uid=77971">資料</a>
+<a href="../../../message.php?action=write&touid=77971">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789951&article=14">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789951">浅浅的几个洞，让我思念到如今
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789951"></ul><script>var comm94789951 = {"c2724580":{"i":598856,"u":"一个坏男孩","c":"这么浅，究竟有没有进去？","t":"09-09 11:56","l":2,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg"},"c2726231":{"i":596590,"u":"杀手孟星魂","c":"爱里有多深？","t":"09-10 00:08","l":2,"p":"https:\/\/files.catbox.moe\/2i5kob.gif"},"c2728159":{"i":610431,"u":"古或今","c":"真受不了这几个妖精","t":"09-10 19:24","l":1,"p":"https:\/\/s2.loli.net\/2022\/09\/04\/pMSlw5Jf1kNZhTB.jpg"},"c2730376":{"i":598856,"u":"一个坏男孩","c":"西门一直出鬼一直绿😂","t":"09-11 17:03","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":610431,"tu":"古或今"},"c2730693":{"i":610431,"u":"古或今","c":"技区大名鼎鼎的","t":"09-11 19:36","l":0,"p":"https:\/\/s2.loli.net\/2022\/09\/04\/pMSlw5Jf1kNZhTB.jpg","ti":598856,"tu":"一个坏男孩"}};loadComment(94789951, 28);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 04:25 
+
+<span class="s3">#14樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789951&article=14">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789951" onclick="postreply('點評 14樓(爱曰睡美人) 的帖子', '94789951', 0, 'cont94789951');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789966></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>跟我读啊</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">俠客 ( 9 )</font><br />
+
+發帖：<span class="s1">1646</span><br />
+威望：<span class="s2">165 點</span><br />
+金錢：<span class="s3">577 USD</span><br />
+
+貢獻：<span class="s1">600 點</span><br />
+
+
+註冊：2018-11-22
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="15" authorid="516685" onclick="clickLike(94789966, 'h')" href="javascript:"  id="like94789966">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=516685">資料</a>
+<a href="../../../message.php?action=write&touid=516685">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789966&article=15">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789966">多谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 04:40 
+
+<span class="s3">#15樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789966&article=15">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789966" onclick="postreply('點評 15樓(跟我读啊) 的帖子', '94789966', 0, 'cont94789966');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789996></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>娃哈哈太太乐</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">743</span><br />
+威望：<span class="s2">85 點</span><br />
+金錢：<span class="s3">1412 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2021-10-22
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="16" authorid="589307" onclick="clickLike(94789996, 'h')" href="javascript:" class="s3" id="like94789996">赞(2)</a> |  
+
+
+<a href="../../../show.php?uid=589307">資料</a>
+<a href="../../../message.php?action=write&touid=589307">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789996&article=16">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789996">好图！好文！热血沸腾的日子
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789996"></ul><script>var comm94789996 = {"c2726233":{"i":596590,"u":"杀手孟星魂","c":"那是共同的青春记忆！","t":"09-10 00:09","l":2,"p":"https:\/\/files.catbox.moe\/2i5kob.gif"},"c2736506":{"i":598856,"u":"一个坏男孩","c":"还有吗⊙▽⊙","t":"09-13 19:00","l":1,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":596590,"tu":"杀手孟星魂"},"c2746581":{"i":596590,"u":"杀手孟星魂","c":"同学会……🍻","t":"09-16 22:20","l":0,"p":"https:\/\/files.catbox.moe\/2i5kob.gif","ti":598856,"tu":"一个坏男孩"},"c2753359":{"i":598856,"u":"一个坏男孩","c":"轮流来？","t":"09-19 11:34","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":596590,"tu":"杀手孟星魂"}};loadComment(94789996, 4);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 04:52 
+
+<span class="s3">#16樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789996&article=16">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789996" onclick="postreply('點評 16樓(娃哈哈太太乐) 的帖子', '94789996', 0, 'cont94789996');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94789998></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>wumeng711</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">精靈王 ( 12 )</font><br />
+
+發帖：<span class="s1">5264</span><br />
+威望：<span class="s2">527 點</span><br />
+金錢：<span class="s3">6216044 USD</span><br />
+
+貢獻：<span class="s1">42660 點</span><br />
+
+
+註冊：2017-02-20
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="17" authorid="455625" onclick="clickLike(94789998, 'h')" href="javascript:"  id="like94789998">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=455625">資料</a>
+<a href="../../../message.php?action=write&touid=455625">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94789998&article=17">編輯</a>
+</div>
+
+<br><div class="tips" style="width:auto"><SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT></div><div class="c"></div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94789998">身材真好
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94789998"></ul><script>var comm94789998 = {"c2729801":{"i":597703,"u":"老道老啦","c":"青春真好","t":"09-11 12:05","l":0},"c2730375":{"i":598856,"u":"一个坏男孩","c":"又绿了","t":"09-11 17:02","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":597703,"tu":"老道老啦"}};loadComment(94789998, 2);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 04:53 
+
+<span class="s3">#17樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94789998&article=17">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94789998" onclick="postreply('點評 17樓(wumeng711) 的帖子', '94789998', 0, 'cont94789998');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790080></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>Mr.C</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">547</span><br />
+威望：<span class="s2">57 點</span><br />
+金錢：<span class="s3">1105 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2021-05-12
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="18" authorid="576979" onclick="clickLike(94790080, 'h')" href="javascript:" class="s3" id="like94790080">赞(2)</a> |  
+
+
+<a href="../../../show.php?uid=576979">資料</a>
+<a href="../../../message.php?action=write&touid=576979">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790080&article=18">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790080">最后动图有点刺激
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94790080"></ul><script>var comm94790080 = {"c2724582":{"i":598856,"u":"一个坏男孩","c":"就在下铺开干了？😳","t":"09-09 11:56","l":1,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg"},"c2726157":{"i":419190,"u":"众所周知","c":"要是有视频就完美了，确实带感！！！","t":"09-09 23:42","l":1},"c2726240":{"i":596590,"u":"杀手孟星魂","c":"这是多人运动！楼主太隐晦了🤪","t":"09-10 00:10","l":1,"p":"https:\/\/files.catbox.moe\/2i5kob.gif","ti":419190,"tu":"众所周知"},"c2731723":{"i":576979,"u":"Mr.C","c":"小炮架子很棒","t":"09-12 06:18","l":0,"ti":598856,"tu":"一个坏男孩"},"c2732626":{"i":598856,"u":"一个坏男孩","c":"青春无敌","t":"09-12 11:41","l":0,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":576979,"tu":"Mr.C"}};loadComment(94790080, 5);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 05:24 
+
+<span class="s3">#18樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790080&article=18">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790080" onclick="postreply('點評 18樓(Mr.C) 的帖子', '94790080', 0, 'cont94790080');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790099></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>小恶魔天使</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='http://dingyue.nosdn.127.net/oG1XnealhkI92tuGAPjGkG=skoIdoXL0qjAOdfM3m7Bs01529398543236.gif' border='0' style='max-width:140px;max-height:110px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">精靈王 ( 12 )</font><br />
+
+發帖：<span class="s1">1697</span><br />
+威望：<span class="s2">170 點</span><br />
+金錢：<span class="s3">394 USD</span><br />
+
+貢獻：<span class="s1">134120 點</span><br />
+
+
+註冊：2018-10-08
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="19" authorid="512269" onclick="clickLike(94790099, 'h')" href="javascript:" class="s3" id="like94790099">赞(2)</a> |  
+
+
+<a href="../../../show.php?uid=512269">資料</a>
+<a href="../../../message.php?action=write&touid=512269">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790099&article=19">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790099"><h5 class="quote">引用</h5><blockquote>引用第18樓Mr.C於2022-09-09 05:24發表的  :<br>最后动图有点刺激 </blockquote><br>室友终于开启了战斗模式
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94790099"></ul><script>var comm94790099 = {"c2724913":{"i":598856,"u":"一个坏男孩","c":"来得有点迟","t":"09-09 14:04","l":1,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg"}};loadComment(94790099, 1);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 05:31 
+
+<span class="s3">#19樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790099&article=19">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790099" onclick="postreply('點評 19樓(小恶魔天使) 的帖子', '94790099', 0, 'cont94790099');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790221></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>闲云不负</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"><img src='https://s8.gifyu.com/images/18651015743947593.jpg' border='0' style='max-width:185px;max-height:185px'/></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">光明使者 ( 14 )</font><br />
+
+發帖：<span class="s1">11092</span><br />
+威望：<span class="s2">6538 點</span><br />
+金錢：<span class="s3">92774035 USD</span><br />
+
+貢獻：<span class="s1">668095 點</span><br />
+
+
+註冊：2014-10-14
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="20" authorid="310986" onclick="clickLike(94790221, 'h')" href="javascript:" class="s3" id="like94790221">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=310986">資料</a>
+<a href="../../../message.php?action=write&touid=310986">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790221&article=20">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790221">图文精彩
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div>------------------------</div>
+<div class="signature" style="max-height:px;maxHeight:px; overflow:hidden;"><table width="100%"><tr><td>H</td></tr></table></div>
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94790221"></ul><script>var comm94790221 = {"c2726245":{"i":596590,"u":"杀手孟星魂","c":"上铺的兄弟的马子湿了下铺的床单……😍","t":"09-10 00:11","l":2,"p":"https:\/\/files.catbox.moe\/2i5kob.gif"},"c2726794":{"i":310986,"u":"闲云不负","c":"三人行必有我师。","t":"09-10 08:50","l":1,"p":"https:\/\/s8.gifyu.com\/images\/18651015743947593.jpg","ti":596590,"tu":"杀手孟星魂"},"c2727394":{"i":598856,"u":"一个坏男孩","c":"三人行必有我湿💦","t":"09-10 13:45","l":1,"p":"https:\/\/s4.gifyu.com\/images\/097703903cea518aec4edc8213df3158.jpg","ti":310986,"tu":"闲云不负"},"c2727800":{"i":606538,"u":"桃之妖夭","c":"湿透了怎么睡？","t":"09-10 16:14","l":1,"ti":598856,"tu":"一个坏男孩"},"c2728001":{"i":310986,"u":"闲云不负","c":"会玩。","t":"09-10 18:00","l":0,"p":"https:\/\/s8.gifyu.com\/images\/18651015743947593.jpg","ti":598856,"tu":"一个坏男孩"}};loadComment(94790221, 33);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 05:56 
+
+<span class="s3">#20樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790221&article=20">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790221" onclick="postreply('點評 20樓(闲云不负) 的帖子', '94790221', 0, 'cont94790221');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790227></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>黑黑的男人</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">119</span><br />
+威望：<span class="s2">18 點</span><br />
+金錢：<span class="s3">1544 USD</span><br />
+
+貢獻：<span class="s1">15 點</span><br />
+
+
+註冊：2022-08-14
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="21" authorid="620478" onclick="clickLike(94790227, 'h')" href="javascript:"  id="like94790227">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=620478">資料</a>
+<a href="../../../message.php?action=write&touid=620478">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790227&article=21">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790227">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 05:58 
+
+<span class="s3">#21樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790227&article=21">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790227" onclick="postreply('點評 21樓(黑黑的男人) 的帖子', '94790227', 0, 'cont94790227');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790248></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>春水爱学习</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">俠客 ( 9 )</font><br />
+
+發帖：<span class="s1">1412</span><br />
+威望：<span class="s2">139 點</span><br />
+金錢：<span class="s3">365 USD</span><br />
+
+貢獻：<span class="s1">5704 點</span><br />
+
+
+註冊：2022-05-22
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="22" authorid="612946" onclick="clickLike(94790248, 'h')" href="javascript:"  id="like94790248">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=612946">資料</a>
+<a href="../../../message.php?action=write&touid=612946">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790248&article=22">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790248">1024
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 06:01 
+
+<span class="s3">#22樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790248&article=22">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790248" onclick="postreply('點評 22樓(春水爱学习) 的帖子', '94790248', 0, 'cont94790248');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790255></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>ahdad</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">840</span><br />
+威望：<span class="s2">85 點</span><br />
+金錢：<span class="s3">20498 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2022-07-26
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="23" authorid="618961" onclick="clickLike(94790255, 'h')" href="javascript:"  id="like94790255">赞(0)</a> |  
+
+
+<a href="../../../show.php?uid=618961">資料</a>
+<a href="../../../message.php?action=write&touid=618961">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790255&article=23">編輯</a>
+</div>
+
+<br><div class="tips" style="width:auto"><SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT></div><div class="c"></div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790255">感谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 06:02 
+
+<span class="s3">#23樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790255&article=23">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790255" onclick="postreply('點評 23樓(ahdad) 的帖子', '94790255', 0, 'cont94790255');">點評</a>
+
+</div></th></tr></table></div>
+
+<a name=#94790262></a>
+<div class="t t2" >
+<table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr class="tr1 do_not_catch">
+<th width="230" rowspan="2"><b>milklanduo</b>
+<div style="padding:10px 0;">
+<table width="98%" cellspacing="0" cellpadding="0" style="border:0">
+	<tr><td class="tac" style="overflow:hidden; border:0;"></td></tr>
+</table>
+</div>
+<br />
+
+<br />
+級別：<font color="#555555">新手上路 ( 8 )</font><br />
+
+發帖：<span class="s1">840</span><br />
+威望：<span class="s2">85 點</span><br />
+金錢：<span class="s3">20496 USD</span><br />
+
+貢獻：<span class="s1">0 點</span><br />
+
+
+註冊：2022-07-26
+
+</th>
+<th height="100%" valign="top" style="padding:5px 10px 0 0; border:0;width:auto; overflow:hidden">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" style="WORD-WRAP: break-word; height:100%;">
+<tr height="100%"><td bgcolor="" valign="top">
+<div class="tiptop">
+
+			<a article="24" authorid="618960" onclick="clickLike(94790262, 'h')" href="javascript:" class="s3" id="like94790262">赞(1)</a> |  
+
+
+<a href="../../../show.php?uid=618960">資料</a>
+<a href="../../../message.php?action=write&touid=618960">短信</a>
+<a href="../../../sendemail.php?action=tofriend&tid=5270504">推薦</a>
+<a href="../../../post.php?action=modify&fid=7&tid=5270504&pid=94790262&article=24">編輯</a>
+</div>
+
+<br /><div class="tpc_content do_not_catch" id="cont94790262">感谢分享
+
+</div>
+
+</td></tr></table>
+</th></tr>
+<tr class="tr1">
+<th style="vertical-align:bottom; padding-left:0px; border:0">
+
+
+		<br><br>點評<br><hr class="hr_comm"><ul class="post_comm" id="comm94790262"></ul><script>var comm94790262 = {"c2799704":{"i":598856,"u":"一个坏男孩","c":"好故事差点酒","t":"10-03 15:42","l":0,"p":"https:\/\/images2.imgbox.com\/72\/95\/cSAm8LY4_o.gif"},"c2845699":{"i":502916,"u":"淫太狼","c":"你这头像有点意思","t":"10-15 12:08","l":1,"ti":598856,"tu":"一个坏男孩"},"c2846360":{"i":598856,"u":"一个坏男孩","c":"大家都这么说的！🤝","t":"10-15 15:46","l":0,"p":"https:\/\/images2.imgbox.com\/72\/95\/cSAm8LY4_o.gif","ti":502916,"tu":"淫太狼"}};loadComment(94790262, 3);</script>
+
+<div class="tipad">
+<span style="float:right">
+
+<a href="javascript:scroll(0,0)">TOP</a></span>
+Posted:2022-09-09 06:03 
+
+<span class="s3">#24樓</span>  <a href="../../../post.php?action=quote&fid=7&tid=5270504&pid=94790262&article=24">引用</a> |
+<a title="點評此樓并短信通知" style="cursor:pointer;" id="rp94790262" onclick="postreply('點評 24樓(milklanduo) 的帖子', '94790262', 0, 'cont94790262');">點評</a>
+
+</div></th></tr></table></div>
+
+<div class="t3"><table cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr><td align="left"><div class="pages"><a href="javascript:#" class="gray">＜</a><a href="javascript:#" class="gray">上一頁</a><a><U>1</U></a><a href="../../../read.php?tid=5270504&amp;page=2">2</a><a href="../../../read.php?tid=5270504&amp;page=3">3</a><a href="../../../read.php?tid=5270504&amp;page=4">4</a><a class='w70'><input type="text" style="width:50px;" value="1/20" onfocus="this.value='';" onblur="this.value='1/20'" onkeydown="javascript: if(event.keyCode==13){ location='../../../read.php?tid=5270504&amp;page='+this.value;return false;}"></a><a href="../../../read.php?tid=5270504&amp;page=2">下一頁</a><a href="../../../read.php?tid=5270504&amp;page=20" id="last">＞</a></div></td>
+<td valign="center" align="right">
+</td></tr>
+<tr><td align="left"><br />.:. <b><a href="../../../index.php">草榴社區</a> -> <a href="../../../thread0806.php?fid=7">技術討論區</a></b></td>
+</tr></table></div>
+<BR>
+<form name="FORM" method="post" action="../../../post.php?" onsubmit="return checkpost(document.FORM);">
+<div class="t"><table cellspacing="0" cellpadding="0" width="100%">
+<tr><td class="h" colspan="2">
+<b>快速回帖</b></td>
+<td class="h" width="20%" style="text-align:right">
+<a href="javascript:scroll(0,0)"><b>頂端</b></a></td></tr>
+<tr><td valign="top" width="20%" bgcolor="#F9F9EC" style="padding:7px">
+<b>內容</b>：<br />
+<font face="verdana"> HTML 代碼不可用<br /><br />
+<input type="checkbox" name="atc_usesign" value="1" checked />使用簽名<br />
+<input type="checkbox" name="atc_convert" value="1" checked />Wind Code自動轉換
+<input type="hidden" name="atc_autourl" value="1" /><br /><br />
+<input type="button" onClick="resetform(this.form, 'reply');" value="重置" />
+</td>
+<td width="60%" bgcolor="#F9F9EC">
+<div style="margin:5px 0">
+<input class="input" type="text" name="atc_title" value="Re:青春逼人" size="50" maxlength="45" readonly="readonly"/>
+<div class="quote_text"></div>
+
+</div>
+<textarea onkeydown="quickpost(event)" name="atc_content" style="width:96%" rows="8"></textarea>
+<input type="hidden" value="2" name="step" />
+<input type="hidden" value="reply" name="action" />
+<input type="hidden" value="7" name="fid" />
+<input type="hidden" value="5270504" name="tid" />
+<input type="hidden" value="h" name="page" />
+<input type="hidden" value="" name="pid" />
+<input type="hidden" value="" name="article" />
+<input type="hidden" name="touid" />
+<input type="hidden" value="verify" name="verify" />
+<div style="margin:5px 0"><div style="padding:4px 10px 0 0;float:left;color:#FF0000">按 Ctrl+Enter 直接提交</div>
+<input class="btn" type="submit" name="Submit" value="提 交" /></div>
+</td>
+<td width="20%">
+</td></tr></table></div></form>
+</div>
+<script>
+var charset='gbk';
+var imgpath='images';
+var stylepath='wind';
+
+$('.sptable_do_not_remove h4:eq(0)').append('<span class=serdta></span>');
+$(document).ready(function(){
+	r9aeadS();
+	$('img[ess-data]').each(function(){
+		if($(this).attr('ess-data').indexOf('sinaimg')>0){
+			$(this).attr('ess-data', $(this).attr('ess-data').replace(/https:/, "http:"));
+		}
+		$(this).attr('src', $(this).attr('ess-data'));
+		$(this).css('cursor', 'pointer');
+		$(this).on('load', function(){checkBigImage($(this))});
+		$(this).click(function(){
+			window.open('https://2023.redircdn.com/?action=image&url='+encodeURIComponent($(this).attr('data-link'))+'&src='+encodeURIComponent($(this).attr('src')));
+			return false;
+		});
+	});
+});
+
+function adhtml(tpcHtml){
+	$('.tpc_content:eq(0)').html(tpcHtml);
+}
+
+function r9aeadS(){
+	// v20211210 Blocking ads will cause your filters to be targeted and being followed by our technical department, resulting in the inability to display content
+	var blockText = '去广告插件屏蔽, 请等待10秒, 或将其关闭即刻恢复浏览';
+	if($('.sptable_do_not_remove td').css('display')=='none' || $('.tips').css('display')=='none' || $('.tips').css('height')=='0px' || $('.tips').css('height')=='1px' || $('.tips').css('visibility')=='hidden'){
+		var tpcHtml = '';
+		setTimeout(function(){ tpcHtml = $('.tpc_content:eq(0)').html(); $('.tpc_content:eq(0)').html(blockText); }, 1006);
+		setTimeout(function(){ adhtml(tpcHtml); }, 10006);
+	}
+}
+</script>
+<script src="//2023.redircdn.com/web/images//post.js?v=1"></script>
+<div id="footer">
+<SCRIPT LANGUAGE="JavaScript">spinit();</SCRIPT><br />
+<font color="#999999"><a href='/notice.php?fid=-1#1' style='color:#999999'>DMCA / ABUSE REPORT</a> - T66Y.com</font>
+</div>
+</body></html>

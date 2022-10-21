@@ -1,6 +1,7 @@
 import os.path
+import uuid
 
-from learn.contants.Constant import CRAWER_1024_JISHU_FILE, CARWER_1024_WENXUE_FILE
+from learn.contants.Constant import CRAWER_1024_JISHU_FILE, CARWER_1024_WENXUE_FILE, CARWER_1024_PICTURE_FILE
 
 
 # 技术写入内容信息
@@ -20,7 +21,7 @@ def writeContent(content, fileName):
 
 
 # 文学写入title
-def wxWriteTitle(fileName,title ):
+def wxWriteTitle(fileName, title):
     fileName = "未分类.txt" if fileName == "" else fileName
     if (1 - os.path.exists(CARWER_1024_WENXUE_FILE)):
         os.mkdir(CARWER_1024_WENXUE_FILE)
@@ -31,7 +32,7 @@ def wxWriteTitle(fileName,title ):
 
 
 # 文学写入内容
-def wxWriteContent(fileName,content ):
+def wxWriteContent(fileName, content):
     fileName = "未分类.txt" if fileName == "" else fileName
     if (1 - os.path.exists(CARWER_1024_WENXUE_FILE)):
         os.mkdir(CARWER_1024_WENXUE_FILE)
@@ -42,3 +43,27 @@ def wxWriteContent(fileName,content ):
         file.write('\n')
         i += 1
     file.close()
+
+
+def writeCache(directory, name, content):
+    name = "未分类" if name == "" else name
+    if (1 - os.path.exists(directory)):
+        os.mkdir(directory)
+    file = open(directory + name + '.txt', 'a', encoding='utf-8')
+    file.write(content)
+    file.close()
+
+
+def writePicture(fileName, content, suffix_name):
+    fileName = str(uuid.uuid1()) + suffix_name if fileName == "" else fileName
+    if (1 - os.path.exists(CARWER_1024_PICTURE_FILE)):
+        os.mkdir(CARWER_1024_PICTURE_FILE)
+    try:
+        file = open(fileName, mode='wb')
+        file.write(content)
+        file.close()
+    except Exception as err:
+        print("出现异常" + str(err))
+        return False
+    return True
+
