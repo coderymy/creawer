@@ -57,7 +57,7 @@ def crawer_content_md(name, url, path):
     html_content = str(content).replace("&amp;", "&")
     print(f"开始下载 [{name}]")
     # 保存content页到mysql中（可不要，主要是为了后续分析使用）
-    db_content = Content("技术分享页面", name, soup.select(".tpc_content.do_not_catch")[0])
+    db_content = Content("技术分享页面", name, soup.select('#conttpc')[0])
     id = insertContent(db_content)
     i = 0
     for img_label in img_labels:
@@ -122,9 +122,13 @@ def deleteListCache():
 
 
 if __name__ == '__main__':
-    dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest"
-    # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
-    save_path = CRAWER_1024_TW_FILE
-    # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
-    download_page(dge_url, "图文精华/")
+    # dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2"
+    # # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
+    # save_path = CRAWER_1024_TW_FILE
+    # # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
+    # download_page(dge_url, "图文精华/")
     # deleteListCache()
+
+    crawer_content_md("精心为你挑选的GIF动态图，附图片出处！","https://cl.5837x.xyz/htm_mob/1312/7/1008535.html","图文精华/")
+
+

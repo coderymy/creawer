@@ -42,7 +42,7 @@ if __name__ == '__main__':
                       ]
     jh_directory_name = "图文精华/"
 
-    base_js_remove_list = ['[花和尚撸自身]好想上老師的課！精選《１５部女教師謎片》，带番號！[27P].md']
+    base_js_remove_list = ['[花和尚撸自身]好想上老師的課！精選《１５部女教師謎片》，带番號！[27P].md','[流年堪忆]走向性麻木之遗失在时光里的人妻或女儿[88P].md',]
     base_js_directory_name = "crawer_1024_js_file/"
 
     dge_remove_list = ['性感小女友[11P].md',

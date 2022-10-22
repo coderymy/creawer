@@ -100,7 +100,7 @@ def getPicture(url):
     try:
         time.sleep(1)
         # timeout=(10, 27) 表示10秒的链接超时时间，27秒的读取超时时间（读取超时时间没有默认值，如果不给就一直等待直到读取完）
-        response = requests.get(url, headers=head, timeout=(5, 100))
+        response = requests.get(url, headers=head, timeout=(15, 100))
         result = response.content
     except BaseException:
         # if (CURRENT_TIME <= MAX_TIME):
@@ -108,3 +108,17 @@ def getPicture(url):
         # print("链接访问失败 未知异常")
         return ''
     return result
+
+
+def getVideo(url):
+    global CURRENT_TIME, MAX_TIME
+    head = {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25"
+    }
+    try:
+        time.sleep(1)
+        response = requests.get(url, headers=head, timeout=5)
+        return response.content
+    except BaseException:
+        print("下载视频出错")
+        return ''
