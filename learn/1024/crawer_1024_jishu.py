@@ -69,11 +69,13 @@ def crawer_content_md(name, url, path):
 
         # 从缓存获取/从网络获取并保存下来图片
         download_result = getResouceAndDownloadPic(name + str(i), pic_url, suffix_name)
+        if (len(download_result) == 0):
+            print(name + f" 第{str(i)}张下载失败，共{str(len(img_labels))}张")
+            continue
+        print(name + f" 第{str(i)}张下载成功，共{str(len(img_labels))}张")
 
         # 将原本html中ess-data后面的图片的网络链接替换成当前文件的本地相对路径（方便后续md文件获取使用）
         html_content = html_content.replace(pic_url, "../" + download_result)
-        print(name + f" 第{str(i)}张下载成功，共{str(len(img_labels))}张")
-
         # 将该条图片的基本信息保存到mysql中，后于后续的分析使用
         db_content_pic = Content_pic(id, name, str(img_label), pic_url, MD5(pic_url), "../" + download_result)
         insertContentPic(db_content_pic)
