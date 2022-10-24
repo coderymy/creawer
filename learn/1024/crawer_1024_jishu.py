@@ -58,7 +58,7 @@ def crawer_content_md(name, url, path):
     print(f"开始下载 [{name}]")
     # 保存content页到mysql中（可不要，主要是为了后续分析使用）
     db_content = Content("技术分享页面", name, soup.select('#conttpc')[0])
-    id = insertContent(db_content)
+    # id = insertContent(db_content)
     i = 0
     for img_label in img_labels:
         i += 1
@@ -78,7 +78,7 @@ def crawer_content_md(name, url, path):
         html_content = html_content.replace(pic_url, "../" + download_result)
         # 将该条图片的基本信息保存到mysql中，后于后续的分析使用
         db_content_pic = Content_pic(id, name, str(img_label), pic_url, MD5(pic_url), "../" + download_result)
-        insertContentPic(db_content_pic)
+        # insertContentPic(db_content_pic)
     # 将img标签里面的ess-data属性替换成src，因为后续使用的html->markdown的库不认识这个属性名称
     html_content = html_content.replace("ess-data", "src")
     # 将html转换成md文件
@@ -122,13 +122,16 @@ def deleteListCache():
 
 
 if __name__ == '__main__':
-    # dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2"
+    dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2"
     # # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
     # save_path = CRAWER_1024_TW_FILE
     # # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
-    # download_page(dge_url, "图文精华/")
+    download_page(dge_url, "图文精华/")
     # deleteListCache()
-
-    crawer_content_md("精心为你挑选的GIF动态图，附图片出处！","https://cl.5837x.xyz/htm_mob/1312/7/1008535.html","图文精华/")
-
+    # 精品合集：https://cl.5837x.xyz/thread0806.php?fid=7&search=577032
+    # 一夜精品：https://cl.5837x.xyz/thread0806.php?fid=7&search=269587
+    # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=577032", "图文精华/")
+    # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=269587", "图文精华/")
+    # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=304872","图文精华/")
+    # crawer_content_md("[精品合集15季]【极品稀缺❤️重磅群交】最新国内群交三部曲--大型淫乱现场 激操6P互换乱操 超爽刺激》私密猎奇圈付费重磅视频，大神死猪玩番外篇，大学生、少妇、模特大波翘臀", "https://cl.5837x.xyz/htm_data/2210/7/5323875.html", "新图文精华/")
 
