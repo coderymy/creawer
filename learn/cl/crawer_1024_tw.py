@@ -15,7 +15,7 @@ prefix_content = ""
 # 范围获取
 REQUEST_RANGE = "0-200"
 
-MAX_THREADS = 10
+MAX_THREADS = 20
 
 
 # 爬取页面列表
@@ -71,7 +71,7 @@ def parallel_download_pic(pictures):
         return ''
     global MAX_THREADS
     # 按照设置的线程上限数量拆分成对应数组的数据
-    everyThreadNums = (int(len(pictures) / MAX_THREADS)) if (int(len(pictures) / MAX_THREADS))==0 else 1
+    everyThreadNums = (int(len(pictures) / MAX_THREADS)) if not (int(len(pictures) / MAX_THREADS)) == 0 else 1
     i = 0
     thread_list = []
     while (i <= MAX_THREADS + 1):
@@ -83,8 +83,6 @@ def parallel_download_pic(pictures):
     for thread_item in thread_list:
         thread_item.join()
     return
-
-
 
 
 
@@ -123,8 +121,8 @@ def deleteListCache():
 
 
 if __name__ == '__main__':
-    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498", "车牌AV/")
-    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")
+    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498", "车牌AV/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=616687", "林深时见鹿/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=269587", "一夜精品/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=219330", "乱世虾米/")

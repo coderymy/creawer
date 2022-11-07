@@ -1,15 +1,11 @@
-MAX_THREAD = ''
-
-
-def getMAX_THREAD():
-    global MAX_THREAD
-    MAX_THREAD=MAX_THREAD+"aaa"
-    print(MAX_THREAD)
-    return MAX_THREAD
+import pypandoc
 
 
 def aaa():
-    global  MAX_THREAD
-    print(MAX_THREAD)
+    return
+
+
 if __name__ == '__main__':
-    print(int(9 / 10))
+    pypandoc.convert_file('aaa.md', to='epub', format='md', outputfile='aaa.epub', )
+
+    # STARS-681变态女主播无聊想撒泼同事落贼窝挨肏又被摸[76P].md

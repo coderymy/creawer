@@ -61,9 +61,3 @@ def getSuffixName(url):
         return ".jpg"
     return "." + suffixName
 
-
-if __name__ == '__main__':
-    url = "https://cl.5837x.xyz/htm_data/2210/7/5337962.html"
-    url2 = "https://cl.5837x.xyz/htm_mob/2210/7/5336129.html"
-    # crawer_picture("test", url)
-    getSuffixName(url)
