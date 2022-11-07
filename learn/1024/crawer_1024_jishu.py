@@ -89,6 +89,7 @@ def crawer_content_md(name, url, path):
 
 
 def download_page(url_admin, save_path):
+    deleteListCache()
     global REQUEST_RANGE
     # 获取下载列表的url
     urlList = crawer_List(url_admin)
@@ -126,12 +127,23 @@ if __name__ == '__main__':
     # # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
     # save_path = CRAWER_1024_TW_FILE
     # # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
-    download_page(dge_url, "图文精华/")
+    # download_page(dge_url, "图文精华/")
     # deleteListCache()
     # 精品合集：https://cl.5837x.xyz/thread0806.php?fid=7&search=577032
     # 一夜精品：https://cl.5837x.xyz/thread0806.php?fid=7&search=269587
-    # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=577032", "图文精华/")
+    # download_page("https://cl.5837x.xyz/htm_data/2210/7/5345815.html", "图文精华/")
     # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=269587", "图文精华/")
     # download_page("https://cl.5837x.xyz/thread0806.php?fid=7&search=304872","图文精华/")
-    # crawer_content_md("[精品合集15季]【极品稀缺❤️重磅群交】最新国内群交三部曲--大型淫乱现场 激操6P互换乱操 超爽刺激》私密猎奇圈付费重磅视频，大神死猪玩番外篇，大学生、少妇、模特大波翘臀", "https://cl.5837x.xyz/htm_data/2210/7/5323875.html", "新图文精华/")
-
+    # crawer_content_md("聊聊和女神老婆的性与爱","https://cl.9706x.xyz/htm_mob/2210/7/5353805.html","图文精华/")
+    # crawer_content_md("日常操做[110P]","https://cl.9706x.xyz/htm_mob/2210/7/5354905.html","图文精华/")
+    # crawer_content_md("[精品合集41季]","https://cl.9706x.xyz/htm_mob/2211/7/5370095.html","图文精华/")
+    # crawer_content_md("没有车牌怎敢上路","https://cl.9706x.xyz/htm_mob/2211/7/5365981.html","图文精华/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=619670","独乐乐不如众乐乐/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=616687","林深时见鹿/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=269587","一夜精品/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=219330","乱世虾米/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=281581","番号动图/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=569641","趣图/")
+    # TODO 异常
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498", "车牌AV/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")

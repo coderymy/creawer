@@ -98,7 +98,7 @@ def getPicture(url):
     }
     result = ''
     try:
-        time.sleep(1)
+        time.sleep(0.5)
         # timeout=(10, 27) 表示10秒的链接超时时间，27秒的读取超时时间（读取超时时间没有默认值，如果不给就一直等待直到读取完）
         response = requests.get(url, headers=head, timeout=(15, 100))
         result = response.content
