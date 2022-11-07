@@ -2,6 +2,8 @@ import os.path
 import threading
 
 from learn.markdown.htmlToMd import htmlToMarkdown
+from learn.pojo.Dto import picture
+from learn.pojo.Thread import down_pic_thread
 from learn.utils.IOUtil import writeContent, writeContentNotRept
 from learn.utils.Md5 import MD5
 from learn.utils.Response import getResponse, getHtml, getSoupAndSaveCache
@@ -9,7 +11,7 @@ from crawer_1024_pic import crawer_picture, getSuffixName, getResouceAndDownload
     getPicFileName
 
 # content的前缀
-prefix_content = "https://cl.9706x.xyz/"
+prefix_content = ""
 # 范围获取
 REQUEST_RANGE = "0-200"
 
@@ -34,9 +36,8 @@ def crawer_List(url_admin):
 
 def crawer_content_md(name, url, path):
     # 从缓存及网络上下载整个页面的html文件
-    soup = getSoupAndSaveCache(name, url)
     # 解析出来整体需要的content部分html信息
-    content = soup.select('#conttpc')[0]
+    content = getSoupAndSaveCache(name, url).select('#conttpc')[0]
     # 从content中找到所有的img标签
     img_labels = content.find_all("img")
     # 替换整体content里面的&amp;，防止后续替换的时候出现找不到的问题
@@ -56,13 +57,10 @@ def crawer_content_md(name, url, path):
         html_content = html_content.replace(pic_url, "../" + getPicFileName(str(MD5(name + str(i))), suffix_name))
     # 创建多个线程去获取图片集合中的数据
     parallel_download_pic(pictures)
-
     # 将img标签里面的ess-data属性替换成src，因为后续使用的html->markdown的库不认识这个属性名称
     html_content = html_content.replace("ess-data", "src")
-
     # 将html转换成md文件
     item_markdown = htmlToMarkdown(html_content)
-
     # 保存md文件
     name = name.replace(" ", "")
     writeContentNotRept(item_markdown, path + name + ".md")
@@ -73,7 +71,7 @@ def parallel_download_pic(pictures):
         return ''
     global MAX_THREADS
     # 按照设置的线程上限数量拆分成对应数组的数据
-    everyThreadNums = int(len(pictures) / MAX_THREADS)
+    everyThreadNums = (int(len(pictures) / MAX_THREADS)) if (int(len(pictures) / MAX_THREADS))==0 else 1
     i = 0
     thread_list = []
     while (i <= MAX_THREADS + 1):
@@ -87,46 +85,16 @@ def parallel_download_pic(pictures):
     return
 
 
-class down_pic_thread(threading.Thread):
-    def __init__(self, threadID, pictures):
-        threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.pictures = pictures
 
-    def run(self):
-        for item in self.pictures:
-            download_result = getResouceAndDownloadPic(item.name, item.pic_url, item.suffix_name)
-            if (len(download_result) == 0):
-                print(
-                    f"线程[{self.threadID}]" + item.name + f" 第{str(item.index)}张下载失败，共{str(item.total_pic)}张")
-            else:
-                print(
-                    f"线程[{self.threadID}]" + item.name + f" 第{str(item.index)}张下载成功，共{str(item.total_pic)}张")
-
-
-class picture:
-    name = ''
-    pic_url = ''
-    suffix_name = ''
-    total_pic = ''
-    # 第多少张图片
-    index = 0
-
-    def __init__(self, name, pic_url, suffix_name, total_pic, index):
-        self.name = name
-        self.pic_url = pic_url
-        self.suffix_name = suffix_name
-        self.total_pic = total_pic
-        self.index = index
 
 
 def download_page(url_admin, save_path):
     deleteListCache()
-    global REQUEST_RANGE
+    global REQUEST_RANGE, prefix_content
+    prefix_content = url_admin.split("thread")[0]
     # 获取下载列表的url
     urlList = crawer_List(url_admin)
-    if (len(urlList) == 0):
-        return
+    if (len(urlList) == 0): return
     currentNum = 0
     succNum = 1
     min = int(REQUEST_RANGE.split("-")[0])
@@ -155,7 +123,6 @@ def deleteListCache():
 
 
 if __name__ == '__main__':
-    # TODO 自动修改域名
     download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498", "车牌AV/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=616687", "林深时见鹿/")
