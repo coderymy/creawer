@@ -1,9 +1,9 @@
 import os.path
 import threading
+import time
 
 from learn.markdown.htmlToMd import htmlToMarkdown
 from learn.pojo.Dto import picture
-from learn.pojo.Thread import down_pic_thread
 from learn.utils.IOUtil import writeContent, writeContentNotRept
 from learn.utils.Md5 import MD5
 from learn.utils.Response import getResponse, getHtml, getSoupAndSaveCache
@@ -18,6 +18,7 @@ REQUEST_RANGE = "0-200"
 MAX_THREADS = 20
 
 
+# 多线程爬取图片
 # 爬取页面列表
 def crawer_List(url_admin):
     soup = getSoupAndSaveCache("技术列表页", url_admin)
@@ -80,10 +81,9 @@ def parallel_download_pic(pictures):
         thread_list.append(thread)
         thread.start()
         i += 1
-    for thread_item in thread_list:
-        thread_item.join()
+    # for thread_item in thread_list:
+    #     thread_item.join()
     return
-
 
 
 def download_page(url_admin, save_path):
@@ -115,6 +115,23 @@ def download_page(url_admin, save_path):
     print(f"下载完成...共[{str(len(urlList))}]，下载成功[{str(succNum)}]")
 
 
+class down_pic_thread(threading.Thread):
+    def __init__(self, threadID, pictures):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+        self.pictures = pictures
+
+    def run(self):
+        for item in self.pictures:
+            download_result = getResouceAndDownloadPic(item.name, item.pic_url, item.suffix_name)
+            if (len(download_result) == 0):
+                print(
+                    f"线程[{self.threadID}]" + item.name + f" 第{str(item.index)}张下载失败，共{str(item.total_pic)}张")
+            else:
+                print(
+                    f"线程[{self.threadID}]" + item.name + f" 第{str(item.index)}张下载成功，共{str(item.total_pic)}张")
+
+
 def deleteListCache():
     if os.path.exists("cache/" + MD5("技术列表页") + ".txt"):
         os.remove("cache/" + MD5("技术列表页") + ".txt")
@@ -122,9 +139,12 @@ def deleteListCache():
 
 if __name__ == '__main__':
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498", "车牌AV/")
-    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")
+    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=599498&page=2", "车牌AV/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=616687", "林深时见鹿/")
+    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=592715", "动图/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=269587", "一夜精品/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=219330", "乱世虾米/")
-    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=281581", "番号动图/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=569641", "趣图/")
+    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=281581", "番号动图/")
+    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=619670","独乐乐不如众乐乐/")
+

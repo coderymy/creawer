@@ -43,6 +43,8 @@ cache/
 图文*/
 
 *.jpg
+*.JPG
+*.jpeg
 *.png
 *.gif
 *.txt

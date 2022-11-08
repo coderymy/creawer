@@ -18,5 +18,6 @@ def delete_md(list, directoryName):
 
 # 删除文档，并删除文档中的所有图片
 if __name__ == '__main__':
-    for root, dirs, files in os.walk("图文精华/"):
-        delete_md(files, "图文精华/")
+    directory = "独乐乐不如众乐乐/"
+    for root, dirs, files in os.walk(directory):
+        delete_md(files, directory)
