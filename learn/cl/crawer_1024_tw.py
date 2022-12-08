@@ -13,9 +13,9 @@ from crawer_1024_pic import crawer_picture, getSuffixName, getResouceAndDownload
 # content的前缀
 prefix_content = ""
 # 范围获取
-REQUEST_RANGE = "0-200"
+REQUEST_RANGE = "0-10"
 
-MAX_THREADS = 20
+MAX_THREADS = 10
 
 
 # 多线程爬取图片
@@ -38,7 +38,10 @@ def crawer_List(url_admin):
 def crawer_content_md(name, url, path):
     # 从缓存及网络上下载整个页面的html文件
     # 解析出来整体需要的content部分html信息
-    content = getSoupAndSaveCache(name, url).select('#conttpc')[0]
+    soup = getSoupAndSaveCache(name, url)
+    if (len(soup) == 0):
+        return
+    content = soup.select('#conttpc')[0]
     # 从content中找到所有的img标签
     img_labels = content.find_all("img")
     # 替换整体content里面的&amp;，防止后续替换的时候出现找不到的问题
@@ -65,6 +68,7 @@ def crawer_content_md(name, url, path):
     # 保存md文件
     name = name.replace(" ", "")
     writeContentNotRept(item_markdown, path + name + ".md")
+    time.sleep(200)
 
 
 def parallel_download_pic(pictures):
@@ -81,8 +85,6 @@ def parallel_download_pic(pictures):
         thread_list.append(thread)
         thread.start()
         i += 1
-    # for thread_item in thread_list:
-    #     thread_item.join()
     return
 
 
@@ -90,9 +92,13 @@ def download_page(url_admin, save_path):
     deleteListCache()
     global REQUEST_RANGE, prefix_content
     prefix_content = url_admin.split("thread")[0]
+    # TODO 识别前缀失败，url信息变更
     # 获取下载列表的url
     urlList = crawer_List(url_admin)
-    if (len(urlList) == 0): return
+    if (len(urlList) == 0):
+        time.sleep(60)
+        download_page(url_admin,save_path)
+        # return
     currentNum = 0
     succNum = 1
     min = int(REQUEST_RANGE.split("-")[0])
@@ -146,5 +152,20 @@ if __name__ == '__main__':
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=219330", "乱世虾米/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=569641", "趣图/")
     # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=281581", "番号动图/")
-    download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=619670","独乐乐不如众乐乐/")
+    # download_page("https://cl.9706x.xyz/thread0806.php?fid=7&search=619670","独乐乐不如众乐乐/")
+    # crawer_content_md("[精品合集41季]", "https://cl.6781y.xyz/htm_data/2211/7/5370095.html", "图文精华/")
+    # crawer_content_md("[精品合集44季]", "https://cl.6781y.xyz/htm_mob/2211/7/5375732.html", "图文精华/")
+    # crawer_content_md("[精品合集45季]", "https://cl.6781y.xyz/htm_mob/2211/7/5377671.html", "图文精华/")
+    # crawer_content_md("[精品合集46季]", "https://cl.6781y.xyz/htm_mob/2211/7/5379592.html", "图文精华/")
+    # crawer_content_md("[精品合集47季]", "https://cl.6781y.xyz/htm_mob/2211/7/5381362.html", "图文精华/")
+    # crawer_content_md("[精品合集48季]", "https://cl.6781y.xyz/htm_mob/2211/7/5383236.html", "图文精华/")
+    # crawer_content_md("[精品合集49季]", "https://cl.6781y.xyz/htm_mob/2211/7/5385000.html", "图文精华/")
+    # crawer_content_md("[精品合集50季]", "https://cl.6781y.xyz/htm_mob/2211/7/5386737.html", "图文精华/")
+    # crawer_content_md("[精品合集51季]", "https://cl.6781y.xyz/htm_mob/2211/7/5388472.html", "图文精华/")
+    crawer_content_md("[精品合集53季]", "https://cl.2706x.xyz/htm_data/2211/7/5392140.html", "图文精华/")
 
+
+
+    # crawer_content_md("【一夜精品】❇️11月第一季", "https://cl.3180x.xyz/htm_data/2211/7/5360301.html", "图文精华/")
+    # crawer_content_md("【一夜精品】❇️11月第五季", "https://cl.3180x.xyz/htm_data/2211/7/5374443.html", "图文精华/")
+    # download_page("https://cl.6781y.xyz/thread0806.php?fid=7&search=577032", "图文精华/")

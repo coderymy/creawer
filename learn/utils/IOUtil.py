@@ -24,11 +24,9 @@ def writeContentNotRept(content, fileName):
     fileName = "未分类.txt" if fileName == "" else fileName
     # 判断是否有这个文件，如果没有就创建一个
     # os.mkdir("file/") if (1-os.path.exists("file/")) else 1+1
-    if (1 - os.path.exists(CRAWER_1024_JISHU_FILE)):
-        os.mkdir(CRAWER_1024_JISHU_FILE)
-    if (os.path.exists(fileName)):
-        # 如果有这个文件，就删除重新写
-        os.remove(fileName)
+    # if (os.path.exists(fileName)):
+    #     # 如果有这个文件，就删除重新写
+    #     os.remove(fileName)
     f = open(fileName, 'a', encoding='utf-8')
     f.write(content)
     f.write('\n')

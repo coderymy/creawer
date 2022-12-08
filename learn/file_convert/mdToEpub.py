@@ -1,7 +1,7 @@
 import os
 
 if __name__ == '__main__':
-    directory = "../cl/独乐乐不如众乐乐/"
+    directory = "../cl/趣图/"
     # 调整当前工作目录
     os.chdir(directory)
     os.mkdir("epub/") if not os.path.exists("epub/") else 1 + 1
