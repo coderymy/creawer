@@ -7,7 +7,7 @@ from learn.utils.IOUtil import wxWriteTitle, wxWriteContent
 from learn.utils.Response import getResponse, getHtml
 
 LIST_NAME = "文学列表页面"
-prefix_content = "https://cl.5837x.xyz/"
+prefix_content = "https://cl.6781y.xyz/"
 REQUEST_PAGE_NAME = "thread0806.php"
 REQUEST_RANGE = "0-100"
 CONTENT_FILE_NAME = "合集" + str(datetime.now().year) + str(datetime.now().month) + str(datetime.now().day)
@@ -123,6 +123,8 @@ def crawer_content(item):
         if (len(chapter_divs) == 0):
             continue
         for chapter_div in chapter_divs:
+            if (len(chapter_div.text) < 200):
+                continue
             content = content + "\n" + "\n" + chapter_div.text
         chapter_num += 1
     setCache(item.name, content)
@@ -147,7 +149,9 @@ def download_wx(url, save_path):
         if (len(content) == 0):
             print(f"下载失败 [{item.name}]")
             continue
-        wxWriteTitle(save_path, "[第" + str(succNum) + "章]" + item.name + "：" + str(item.url))
+        content_name = item.name[0:19] if len(item.name) > 20 else item.name
+        wxWriteTitle(save_path, "[第" + str(succNum) + "章] " + content_name)
+        wxWriteTitle(save_path, item.name + "：" + str(item.url))
         wxWriteTitle(save_path, content)
         print(f"下载成功，第[{str(download_num)}]个，共[{str(len(result_list))}]个 ： [{item.name}]")
         succNum += 1
@@ -169,7 +173,7 @@ class Item:
 
 if __name__ == '__main__':
     # url="https://cl.5837x.xyz/thread0806.php?fid=20"
-    url = "https://cl.5837x.xyz/thread0806.php?fid=20&search=&page=2"
+    url = "https://cl.6781y.xyz/thread0806.php?fid=20&search=digest"
     # urlJH = "https://cl.5837x.xyz/thread0806.php?fid=20&search=digest"
     save_path_name = "文学/1021.txt"
     # save_path_jh_name = "文学/精华1021.txt"

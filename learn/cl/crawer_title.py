@@ -55,17 +55,17 @@ def get_page_title(url):
         name = name.replace('\xa0', '').replace('/', '-')
         # urlList += name + "        " + url + "\n"
         # 使用关键词获取
-        if ("yy" in name) or ("侄女" in name) or ("游游" in name):
+        if ("异物" in name):
             urlList += name + "        " + url + "\n"
 
     return urlList
 
 
 if __name__ == '__main__':
-    download_all_pages("国产原创", "https://cl.2718x.xyz/thread0806.php?fid=25", "title/")
+    # download_all_pages("国产原创", "https://cl.2718x.xyz/thread0806.php?fid=25", "title/")
     # download_all_pages("在綫成人影院", "https://cl.2718x.xyz/thread0806.php?fid=22", "title/")
-    download_all_pages("HTTP下载", "https://cl.2718x.xyz/thread0806.php?fid=21", "title/")
-    # download_all_pages("技术讨论", "https://cl.2718x.xyz/thread0806.php?fid=7", "title/")
-    # download_all_pages("新时代的我们", "https://cl.2718x.xyz/thread0806.php?fid=8", "title/")
+    # download_all_pages("HTTP下载", "https://cl.2718x.xyz/thread0806.php?fid=21", "title/")
+    download_all_pages("技术讨论", "https://cl.2718x.xyz/thread0806.php?fid=7", "title/")
+    # download_all_pages("新时代的我们", "https://cl.6781y.xyz/thread0806.php?fid=8", "title/")
     # download_all_pages("達蓋爾的旗幟", "https://cl.2718x.xyz/thread0806.php?fid=16", "title/")
     print("读取完毕")

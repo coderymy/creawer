@@ -162,7 +162,25 @@ if __name__ == '__main__':
     # crawer_content_md("[精品合集49季]", "https://cl.6781y.xyz/htm_mob/2211/7/5385000.html", "图文精华/")
     # crawer_content_md("[精品合集50季]", "https://cl.6781y.xyz/htm_mob/2211/7/5386737.html", "图文精华/")
     # crawer_content_md("[精品合集51季]", "https://cl.6781y.xyz/htm_mob/2211/7/5388472.html", "图文精华/")
-    crawer_content_md("[精品合集53季]", "https://cl.2706x.xyz/htm_data/2211/7/5392140.html", "图文精华/")
+    # crawer_content_md("[精品合集54季]", "https://cl.6781y.xyz/htm_data/2211/7/5393546.html", "图文精华/")
+
+    crawer_content_md("[精品合集70季]", "https://cl.6781y.xyz/htm_data/2212/7/5422681.html", "图文精华/")
+    crawer_content_md("[精品合集71季]", "https://cl.6781y.xyz/htm_data/2212/7/5424575.html", "图文精华/")
+    crawer_content_md("[精品合集72季]", "https://cl.6781y.xyz/htm_data/2212/7/5426282.html", "图文精华/")
+    crawer_content_md("[精品合集73季]", "https://cl.6781y.xyz/htm_data/2212/7/5428457.html", "图文精华/")
+    crawer_content_md("[精品合集74季]", "https://cl.6781y.xyz/htm_data/2212/7/5430429.html", "图文精华/")
+    crawer_content_md("[精品合集75季]", "https://cl.6781y.xyz/htm_data/2212/7/5432111.html", "图文精华/")
+
+
+
+
+
+    # download_page("https://cl.6781y.xyz/thread0806.php?fid=7&search=270557","榴影/")
+
+
+
+    # crawer_content_md("[精品合集74季]","https://cl.6781y.xyz/htm_data/2212/7/5430429.html","图文精华/")
+    # download_page("https://cl.6781y.xyz/thread0806.php?fid=7&search=270557","榴影/")
 
 
 

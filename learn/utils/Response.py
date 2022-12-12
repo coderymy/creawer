@@ -23,8 +23,8 @@ def getResponse(baseurl):
     }
     html = ''
     try:
-        time.sleep(0.3)
-        response = requests.get(baseurl, headers=head, timeout=1, verify=False)  # 获取网页信息
+        time.sleep(1)
+        response = requests.get(baseurl, headers=head, timeout=10, verify=False)  # 获取网页信息
         response.encoding = 'utf-8'
         html = response.text
     except (ReadTimeout, InsecureRequestWarning, ConnectTimeout):
