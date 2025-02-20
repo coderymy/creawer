@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from learn.contants.Constant import CRAWER_1024_JISHU_FILE, CRAWER_1024_DGE_FILE, CRAWER_1024_FILE, \
     CRAWER_1024_TW_FILE
 from learn.markdown.htmlToMd import htmlToMarkdown
-from learn.sql.MySqlUtils import insertContent, insertContentPic
-from learn.sql.Tables import Content, Content_pic
+# from learn.sql.MySqlUtils import insertContent, insertContentPic
+# from learn.sql.Tables import Content, Content_pic
 from learn.utils.IOUtil import writeContent, writeContentNotRept
 from learn.utils.Md5 import MD5
 from learn.utils.Response import getResponse, getHtml, getSoupAndSaveCache
@@ -40,8 +40,8 @@ def crawer_content(name, url, currentNum, succNum, totalNum):
     writeContent("【第" + str(succNum) + "章】" + name, CRAWER_1024_JISHU_FILE + "[合集].txt")
     writeContent(content, CRAWER_1024_JISHU_FILE + "[合集].txt")
     print(f"文档下载成功，第[{str(currentNum)}]个，共[{totalNum}]个 ： [{name}]")
-    db_content = Content("技术分享页面", name, soup.select(".tpc_content.do_not_catch")[0])
-    id = insertContent(db_content)
+    # db_content = Content("技术分享页面", name, soup.select(".tpc_content.do_not_catch")[0])
+    # id = insertContent(db_content)
     crawer_picture(name, url, id)
     return content
 
@@ -57,8 +57,8 @@ def crawer_content_md(name, url, path):
     html_content = str(content).replace("&amp;", "&")
     print(f"开始下载 [{name}]")
     # 保存content页到mysql中（可不要，主要是为了后续分析使用）
-    db_content = Content("技术分享页面", name, soup.select(".tpc_content.do_not_catch")[0])
-    id = insertContent(db_content)
+    # db_content = Content("技术分享页面", name, soup.select(".tpc_content.do_not_catch")[0])
+    # id = insertContent(db_content)
     i = 0
     for img_label in img_labels:
         i += 1
@@ -77,8 +77,8 @@ def crawer_content_md(name, url, path):
         # 将原本html中ess-data后面的图片的网络链接替换成当前文件的本地相对路径（方便后续md文件获取使用）
         html_content = html_content.replace(pic_url, "../" + download_result)
         # 将该条图片的基本信息保存到mysql中，后于后续的分析使用
-        db_content_pic = Content_pic(id, name, str(img_label), pic_url, MD5(pic_url), "../" + download_result)
-        insertContentPic(db_content_pic)
+        # db_content_pic = Content_pic(id, name, str(img_label), pic_url, MD5(pic_url), "../" + download_result)
+        # insertContentPic(db_content_pic)
     # 将img标签里面的ess-data属性替换成src，因为后续使用的html->markdown的库不认识这个属性名称
     html_content = html_content.replace("ess-data", "src")
     # 将html转换成md文件
@@ -122,9 +122,9 @@ def deleteListCache():
 
 
 if __name__ == '__main__':
-    dge_url = "https://cl.5837x.xyz/thread0806.php?fid=7&search=digest"
+    dge_url = "https://t66y.com/thread0806.php?fid=7&search=269587"
     # https://cl.5837x.xyz/thread0806.php?fid=7&search=digest&page=2
-    save_path = CRAWER_1024_TW_FILE
+    # save_path = CRAWER_1024_TW_FILE
     # url = "https://cl.5837x.xyz/thread0806.php?fid=7"
-    download_page(dge_url, "图文精华/")
+    download_page(dge_url, "一夜精品/")
     # deleteListCache()
